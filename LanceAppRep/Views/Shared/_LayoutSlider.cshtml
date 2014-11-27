@@ -1,0 +1,160 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@RenderBody()
+
+<div class="brands">
+    <div class="container5">
+        <div class="brands-main">
+
+
+            <div id="slider1_container" style="position: relative; top: 0px; left: 0px; width: 980px; height: 100px; overflow: hidden;">
+
+                <!-- Loading Screen -->
+                <div u="loading" style="position: absolute; top: 0px; left: 0px;">
+                    <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; background-color: #000; top: 0px; left: 0px; width: 100%; height: 100%;">
+                    </div>
+                    <div style="position: absolute; display: block; background: url(images/loading.gif) no-repeat center center; top: 0px; left: 0px; width: 100%; height: 100%;">
+                    </div>
+                </div>
+
+                <!-- Slides Container -->
+                <div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 980px; height: 100px; overflow: hidden;">
+                    <div>
+                        <img u="image" alt="amazon" src="~/images/popularBrands/best buy.jpg" />
+                    </div>
+                    <div>
+                        <img u="image" alt="android" src="~/images/popularBrands/famous footwear.jpg" />
+                    </div>
+                    <div>
+                        <img u="image" alt="bitly" src="~/images/popularBrands/hotels.jpg" />
+                    </div>
+
+                    <div>
+                        <img u="image" alt="blogger" src="~/images/popularBrands/jcpenney.jpg" />
+                    </div>
+                    <div>
+                        <img u="image" alt="dnn" src="~/images/popularBrands/Kohls.jpg" />
+                    </div>
+                    <div>
+                        <img u="image" alt="drupal" src="~/images/popularBrands/macys.jpg" />
+                    </div>
+                    <div>
+                        <img u="image" alt="ebay" src="~/images/popularBrands/sears.jpg" />
+                    </div>
+                    <div>
+                        <img u="image" alt="facebook" src="~/images/popularBrands/Shoes.jpg" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p style="clear: both;"></p>
+    </div>
+</div>
+
+
+<footer>
+    <div class="footer">
+        <div class="container6">
+            <div class="ftr-main">
+                <div class="ftr1lft">
+                    <ul class="ftr-links1main">
+                        <li class="ftr-linkstitle">BROWSE COUPONS BY</li>
+                        <li><a href="#" class="ftr-links1">Country</a></li>
+                        <li>@Html.ActionLink("Store", "Store", "Home", null, new { @class = "ftr-links1" })</li>
+                        <li><a href="#" class="ftr-links1">Category</a></li>
+                        <li><a href="#" class="ftr-links1">Brand</a></li>
+                        <li><a href="#" class="ftr-links1">Product</a></li>
+                        <li><a href="#" class="ftr-links1">Tags</a></li>
+                    </ul>
+                    <ul class="ftr-links1main">
+                        <li class="ftr-linkstitle">TAGS</li>
+                        <li><a href="#" class="ftr-links1">Exclusive</a></li>
+                        <li><a href="#" class="ftr-links1">New</a></li>
+                        <li><a href="#" class="ftr-links1">Featured</a></li>
+                        <li><a href="#" class="ftr-links1">Clearence</a></li>
+                        <li><a href="#" class="ftr-links1">Money Off</a></li>
+                        <li><a href="#" class="ftr-links1">Percant Off</a></li>
+                    </ul>
+                    <ul class="ftr-links1main">
+                        <li class="ftr-linkstitle" style="width: 250px;">Follow Us</li>
+                        <li><a href="#" class="fbftr"></a></li>
+                        <li><a href="#" class="twftr"></a></li>
+                        <li><a href="#" class="liftr"></a></li>
+                    </ul>
+                </div>
+                <div class="ftr1rit">
+                    <h3>Newsletter SignUp!</h3>
+                    <span class="simpletxt2" style="margin-left: 10px;">Sign up and get our fabulous deals for your favorite brands and products.</span>
+                    <input type="text" class="txtfieldftr">
+                    <input type="button" class="btnftr" value="SUBSCRIBE">
+                </div>
+            </div>
+            <div class="ftr-main">
+                <div class="ftr2lft">
+                    @Html.ActionLink("Home", "Index", "Home", null, new { @class = "ftr-link2" })  @Html.ActionLink("About Us", "About", "Home", null, new { @class = "ftr-link2" })<a href="#" class="ftr-link2">Blig</a> <a href="#" class="ftr-link2">Sitemap</a> @Html.ActionLink("FAQ", "Faqs", "Home", null, new { @class = "ftr-link2" })  @Html.ActionLink("Privacy Policy", "Privacy", "Home", null, new { @class = "ftr-link2" }) @Html.ActionLink("Contact Us", "Contact", "Home", null, new { @class = "ftr-link2" })<br />
+                    <span class="ftr-txt2">2015 Copyrights All Rights Reserved</span>
+                </div>
+            </div>
+            <p style="clear: both;"></p>
+        </div>
+    </div>
+    @*<div class="content-wrapper">
+            <div class="float-left">
+                <p>&copy; @DateTime.Now.Year - My ASP.NET MVC Application</p>
+            </div>
+        </div>*@
+</footer>
+
+@section Scripts {
+    <script>
+        jQuery(document).ready(function ($) {
+            var options = {
+                $AutoPlay: true,
+                $AutoPlaySteps: 1,
+                $AutoPlayInterval: 0,
+                $PauseOnHover: 1,
+                $ArrowKeyNavigation: true,
+                $SlideEasing: $JssorEasing$.$EaseLinear,
+                $SlideDuration: 3000,
+                $MinDragOffsetToSlide: 20,
+                $SlideWidth: 140,
+                $SlideSpacing: 0,
+                $DisplayPieces: 7,
+                $ParkingPosition: 0,
+                $UISearchMode: 1,
+                $PlayOrientation: 1,
+                $DragOrientation: 1
+            };
+
+            var jssor_slider1 = new $JssorSlider$("slider1_container", options);
+            function ScaleSlider() {
+                var bodyWidth = document.body.clientWidth;
+                if (bodyWidth)
+                    jssor_slider1.$SetScaleWidth(Math.min(bodyWidth, 980));
+                else
+                    window.setTimeout(ScaleSlider, 30);
+            }
+
+            ScaleSlider();
+
+            if (!navigator.userAgent.match(/(iPhone|iPod|iPad|BlackBerry|IEMobile)/)) {
+                $(window).bind('resize', ScaleSlider);
+            }
+
+        });
+
+
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-55891908-1', 'auto');
+        ga('send', 'pageview');
+
+</script>
+}

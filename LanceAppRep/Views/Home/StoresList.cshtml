@@ -1,0 +1,1278 @@
+﻿@{
+    ViewBag.Title = "StoresList";
+    Layout = "~/Views/Shared/_LayoutSlider.cshtml";
+}
+
+@model LanceAppRep.Models.Store
+
+
+<div class="slider"></div>
+<!-- slider close -->
+<div class="mainbody">
+    <div class="container4" style="margin-top: 10px;">
+        <!-- body starts -->
+        @if (Model.StoreName == "JPC")
+        {
+                
+            <div class="left">
+                <div class="store-details">
+                    <div class="banright">
+                        <img src='@Url.Content("~/images/HomeCoupon/jcpenney.jpg")' />
+                        <div class="bandisc">Average Discount:$74</div>
+                    </div>
+                    <div class="banleft">
+                        <span class="ban-title">Avail 15% off coupon on your purchases whole sitewide</span><br />
+                        <span class="ban-txt">J. C. Penney Company Inc., known as Jcpenney (JCP and Penney's for short), is a chain of American mid-range retail chains situated in Plano, Texas. The organization works 1,107 retail establishments in every one of the 50 U.S. states and Puerto Rico, and beforehand worked an index business and a few markdown outlets. Notwithstanding offering traditional stock, Jcpenney stores frequently house a few rented offices, for example, Sephora, Seattle's Best Coffee, salons, optical focuses, picture studios, and gems repair.</span>
+                    </div>
+                </div>
+                <div class="title">
+                    <h1>TODAY'S TOP COUPONS</h1>
+                </div>
+                <div class="cpnmain">
+                    <a href="#" class="cpnimg">
+                        <img src='@Url.Content("~/images/HomeCoupon/jcpenney.jpg")' alt="img" /></a>
+                    <div class="cpndes">
+                        <span class="cpntitle">Get 15% Off Sitewide Purchases</span>
+                        <span class="cpntxt">Avail 15% off coupon on your purchases whole sitewide. Some exclusions also apply.</span>
+                        <input name="button" type="submit" class="cpnbtn" id="button" value="REVEAL CODE" />
+                        <span class="cpntxt">See all <a href="#" class="cpn-clink">YOOX Coupons</a> </span>
+                    </div>
+                    <div class="cpnquot">
+                        <span class="cpnqttxt">50% SUCCESS</span>
+                        <span class="cpnqttxt2">3 Votes</span>
+                        <a href="#" class="like"></a><a href="#" class="dislike"></a>
+                        <a href="#" class="facebook"></a><a href="#" class="twiter"></a><a href="#" class="googleplus"></a>
+                    </div>
+                </div>
+                <div class="cpnmain">
+                    <a href="#" class="cpnimg">
+                        <img src='@Url.Content("~/images/HomeCoupon/jcpenney.jpg")' alt="img" /></a>
+                    <div class="cpndes">
+                        <span class="cpntitle">Levi's Jeans, Get Up To 55% Off</span>
+                        <span class="cpntxt">Get Up to 55% off Levi's Jeans only on JCPenney.</span>
+                        <input name="button" type="submit" class="cpnbtn" id="button" value="REVEAL CODE" />
+                        <span class="cpntxt">See all <a href="#" class="cpn-clink">YOOX Coupons</a> </span>
+                    </div>
+                    <div class="cpnquot">
+                        <span class="cpnqttxt">50% SUCCESS</span>
+                        <span class="cpnqttxt2">2 Votes</span>
+                        <a href="#" class="like"></a><a href="#" class="dislike"></a>
+                        <a href="#" class="facebook"></a><a href="#" class="twiter"></a><a href="#" class="googleplus"></a>
+                    </div>
+                </div>
+                <div class="newsletter2">
+                    <h2>Never miss 1-800-Flowers coupon!</h2>
+                    <span class="simpletxt">Sign up and get an alert whenever a new coupon, promo code or discount deal
+for 1-800-Flowers is available.</span>
+                    <input type="text" class="txtfield1" />
+                    <input type="button" class="btn1" value="SUBSCRIBE" />
+                </div>
+                <div class="cpnmain">
+                    <a href="#" class="cpnimg">
+                        <img src='@Url.Content("~/images/HomeCoupon/jcpenney.jpg")' alt="img" /></a>
+                    <div class="cpndes">
+                        <span class="cpntitle">Free Shipping on over $99.</span>
+                        <span class="cpntxt">Now Shipping is free on each and every product and everywhere  in the world  on orders over $99.</span>
+                        <input name="button" type="submit" class="cpnbtn" id="button" value="REVEAL CODE" />
+                        <span class="cpntxt">See all <a href="#" class="cpn-clink">YOOX Coupons</a> </span>
+                    </div>
+                    <div class="cpnquot">
+                        <span class="cpnqttxt">50% SUCCESS</span>
+                        <span class="cpnqttxt2">2 Votes</span>
+                        <a href="#" class="like"></a><a href="#" class="dislike"></a>
+                        <a href="#" class="facebook"></a><a href="#" class="twiter"></a><a href="#" class="googleplus"></a>
+                    </div>
+                </div>
+                <div class="cpnmain" style="padding: 0; width: 100%;">
+                    <div class="review-title">WRITE A REVIEW</div>
+                    <br />
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                            <td width="3%" align="left" valign="middle">&nbsp;</td>
+                            <td width="97%" height="35" align="left" valign="middle">
+                                <input name="textfield" type="text" id="textfield" value="Name" class="txtfield2" style="width: 200px;" /></td>
+                        </tr>
+                        <tr>
+                            <td align="left" valign="middle">&nbsp;</td>
+                            <td height="35" align="left" valign="middle">
+                                <input name="textfield2" type="text" id="textfield2" value="Email" class="txtfield2" style="width: 200px;" /></td>
+                        </tr>
+
+                        <tr>
+                            <td align="left" valign="middle">&nbsp;</td>
+                            <td height="35" align="left" valign="middle">
+                                <textarea name="textarea" id="textarea" cols="45" rows="5" class="txtfield2" style="height: 100px;">Write your review</textarea></td>
+                        </tr>
+
+                        <tr>
+                            <td align="left" valign="middle">&nbsp;</td>
+                            <td height="35" align="left" valign="middle">
+                                <input type="submit" name="button" id="button" value="SUBMIT" class="btn2" /></td>
+                        </tr>
+                        <tr>
+                            <td align="left" valign="middle">&nbsp;</td>
+                            <td height="20" align="left" valign="middle">&nbsp;</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="right">
+                <div class="topstores">
+                    <h2>Related Stores</h2>
+                    <ul class="store-right">
+                        <li><a href="#" class="storeslinks">Thanksgiving</a></li>
+                        <li><a href="#" class="storeslinks">Christmas</a></li>
+                        <li><a href="#" class="storeslinks">Flowers</a></li>
+                        <li><a href="#" class="storeslinks">Gardening</a></li>
+                        <li><a href="#" class="storeslinks">Gifts & Flowers</a></li>
+                        <li><a href="#" class="storeslinks">Gift Baskets</a></li>
+                        <li><a href="#" class="storeslinks">Valentines Day</a></li>
+                    </ul>
+                    <input type="button" class="btn3" value="VIEW MORE" />
+                </div>
+                <div class="featuredcoupons">
+                    <h2>Related Categories</h2>
+                    <ul class="store-right">
+                        <li><a href="#" class="storeslinks">Seasonal</a></li>
+                        <li><a href="#" class="storeslinks">Thanksgiving</a></li>
+                        <li><a href="#" class="storeslinks">Halloween</a></li>
+                        <li><a href="#" class="storeslinks">Christmas</a></li>
+                        <li><a href="#" class="storeslinks">Flowers</a></li>
+                        <li><a href="#" class="storeslinks">Gardening</a></li>
+                        <li><a href="#" class="storeslinks">Gifts & Flowers</a></li>
+                        <li><a href="#" class="storeslinks">Gift Baskets</a></li>
+                        <li><a href="#" class="storeslinks">Cyber Monday</a></li>
+                        <li><a href="#" class="storeslinks">Valentines Day</a></li>
+                        <li><a href="#" class="storeslinks">Mothers Day</a></li>
+                    </ul>
+                    <input type="button" class="btn3" value="VIEW MORE" />
+                </div>
+                <div class="textbox">
+                    <h2>Submit a Coupon</h2>
+
+                    <input type="text" class="txtfield2" value="Store Name" />
+                    <input type="text" class="txtfield2" value="Discount Code" />
+                    <input type="text" class="txtfield2" value="Expiration Date" />
+                    <textarea name="textarea" id="textarea" cols="45" rows="5" class="txtfield2" style="height: 100px;">Description</textarea>
+                    <input type="button" class="btn3" value="SUBMIT" />
+
+                </div>
+                <div class="textbox">
+                    <h2>Related Tags</h2>
+                    <ul class="store-right">
+                        <li><a href="#" class="storeslinks">Valentines Flowers</a></li>
+                        <li><a href="#" class="storeslinks">Anniversary Flowers</a></li>
+                        <li><a href="#" class="storeslinks">Birthday Flowers</a></li>
+                    </ul>
+                </div>
+            </div>
+            <p style="clear: both;"></p>
+        }
+
+        @if (Model.StoreName == "FamousFoot")
+        { 
+                
+          <div class="left">
+                <div class="store-details">
+                    <div class="banright">
+                        <img src='@Url.Content("~/images/HomeCoupon/famous footwear.jpg")' />
+                        <div class="bandisc">Average Discount:$74</div>
+                    </div>
+                    <div class="banleft">
+                        <span class="ban-title">Avail coupons of Extra 20% Off Entire Purchase. One time use code.</span><br />
+                        <span class="ban-txt">Famous footwear is an across the nation chain of retail locations in the United States managing in marked footwear, for the most part at costs reduced from producer's proposed costs. Built in 1960 as a solitary store, "Acclaimed" is viewed as both a pioneer and champion of the pattern towards the station of markdown shopping centers in America.</span>
+                    </div>
+                </div>
+                <div class="title">
+                    <h1>TODAY'S TOP COUPONS</h1>
+                </div>
+                <div class="cpnmain">
+                    <a href="#" class="cpnimg">
+                        <img src='@Url.Content("~/images/HomeCoupon/famous footwear.jpg")' alt="img" /></a>
+                    <div class="cpndes">
+                    <span class="cpntitle">20% Off Sitewide</span>
+                    <span class="cpntxt">Avail coupons of Extra 20% Off Entire Purchase. One time use code. </span>
+                    <input name="button" type="submit" class="cpnbtn" id="button" value="REVEAL CODE" />
+                    <span class="cpntxt">See all <a href="#" class="cpn-clink">YOOX Coupons</a> </span>
+                </div>
+                <div class="cpnquot">
+                    <span class="cpnqttxt">50% SUCCESS</span>
+                    <span class="cpnqttxt2">2 Votes</span>
+                    <a href="#" class="like"></a><a href="#" class="dislike"></a>
+                    <a href="#" class="facebook"></a><a href="#" class="twiter"></a><a href="#" class="googleplus"></a>
+                </div>
+                </div>
+                <div class="cpnmain">
+                    <a href="#" class="cpnimg">
+                        <img src='@Url.Content("~/images/HomeCoupon/famous footwear.jpg")' alt="img" /></a>
+                    <div class="cpndes">
+                    <span class="cpntitle">Flat Rate Shipping</span>
+                    <span class="cpntxt">Flat Rate Shipping get $4.50 off on your entire order! No code needed.</span>
+                    <input name="button" type="submit" class="cpnbtn" id="button" value="REVEAL CODE" />
+                    <span class="cpntxt">See all <a href="#" class="cpn-clink">YOOX Coupons</a> </span>
+                </div>
+                <div class="cpnquot">
+                    <span class="cpnqttxt">50% SUCCESS</span>
+                    <span class="cpnqttxt2">2 Votes</span>
+                    <a href="#" class="like"></a><a href="#" class="dislike"></a>
+                    <a href="#" class="facebook"></a><a href="#" class="twiter"></a><a href="#" class="googleplus"></a>
+                </div>
+                </div>
+                <div class="newsletter2">
+                    <h2>Never miss 1-800-Flowers coupon!</h2>
+                    <span class="simpletxt">Sign up and get an alert whenever a new coupon, promo code or discount deal
+for 1-800-Flowers is available.</span>
+                    <input type="text" class="txtfield1" />
+                    <input type="button" class="btn1" value="SUBSCRIBE" />
+                </div>
+                <div class="cpnmain">
+                    <a href="#" class="cpnimg">
+                        <img src='@Url.Content("~/images/HomeCoupon/famous footwear.jpg")' alt="img" /></a>
+                    <div class="cpndes">
+                    <span class="cpntitle">Get A $5 Coupon</span>
+                    <span class="cpntxt">Leave your Email For newsletter subscription on Famous Footwear & Receive A $5 Coupon Code For Your Next Purchase.</span>
+                    <input name="button" type="submit" class="cpnbtn" id="button" value="REVEAL CODE" />
+                    <span class="cpntxt">See all <a href="#" class="cpn-clink">YOOX Coupons</a> </span>
+                </div>
+                <div class="cpnquot">
+                    <span class="cpnqttxt">50% SUCCESS</span>
+                    <span class="cpnqttxt2">2 Votes</span>
+                    <a href="#" class="like"></a><a href="#" class="dislike"></a>
+                    <a href="#" class="facebook"></a><a href="#" class="twiter"></a><a href="#" class="googleplus"></a>
+                </div>
+                </div>
+                <div class="cpnmain" style="padding: 0; width: 100%;">
+                    <div class="review-title">WRITE A REVIEW</div>
+                    <br />
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                            <td width="3%" align="left" valign="middle">&nbsp;</td>
+                            <td width="97%" height="35" align="left" valign="middle">
+                                <input name="textfield" type="text" id="textfield" value="Name" class="txtfield2" style="width: 200px;" /></td>
+                        </tr>
+                        <tr>
+                            <td align="left" valign="middle">&nbsp;</td>
+                            <td height="35" align="left" valign="middle">
+                                <input name="textfield2" type="text" id="textfield2" value="Email" class="txtfield2" style="width: 200px;" /></td>
+                        </tr>
+
+                        <tr>
+                            <td align="left" valign="middle">&nbsp;</td>
+                            <td height="35" align="left" valign="middle">
+                                <textarea name="textarea" id="textarea" cols="45" rows="5" class="txtfield2" style="height: 100px;">Write your review</textarea></td>
+                        </tr>
+
+                        <tr>
+                            <td align="left" valign="middle">&nbsp;</td>
+                            <td height="35" align="left" valign="middle">
+                                <input type="submit" name="button" id="button" value="SUBMIT" class="btn2" /></td>
+                        </tr>
+                        <tr>
+                            <td align="left" valign="middle">&nbsp;</td>
+                            <td height="20" align="left" valign="middle">&nbsp;</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="right">
+                <div class="topstores">
+                    <h2>Related Stores</h2>
+                    <ul class="store-right">
+                        <li><a href="#" class="storeslinks">Thanksgiving</a></li>
+                        <li><a href="#" class="storeslinks">Christmas</a></li>
+                        <li><a href="#" class="storeslinks">Flowers</a></li>
+                        <li><a href="#" class="storeslinks">Gardening</a></li>
+                        <li><a href="#" class="storeslinks">Gifts & Flowers</a></li>
+                        <li><a href="#" class="storeslinks">Gift Baskets</a></li>
+                        <li><a href="#" class="storeslinks">Valentines Day</a></li>
+                    </ul>
+                    <input type="button" class="btn3" value="VIEW MORE" />
+                </div>
+                <div class="featuredcoupons">
+                    <h2>Related Categories</h2>
+                    <ul class="store-right">
+                        <li><a href="#" class="storeslinks">Seasonal</a></li>
+                        <li><a href="#" class="storeslinks">Thanksgiving</a></li>
+                        <li><a href="#" class="storeslinks">Halloween</a></li>
+                        <li><a href="#" class="storeslinks">Christmas</a></li>
+                        <li><a href="#" class="storeslinks">Flowers</a></li>
+                        <li><a href="#" class="storeslinks">Gardening</a></li>
+                        <li><a href="#" class="storeslinks">Gifts & Flowers</a></li>
+                        <li><a href="#" class="storeslinks">Gift Baskets</a></li>
+                        <li><a href="#" class="storeslinks">Cyber Monday</a></li>
+                        <li><a href="#" class="storeslinks">Valentines Day</a></li>
+                        <li><a href="#" class="storeslinks">Mothers Day</a></li>
+                    </ul>
+                    <input type="button" class="btn3" value="VIEW MORE" />
+                </div>
+                <div class="textbox">
+                    <h2>Submit a Coupon</h2>
+
+                    <input type="text" class="txtfield2" value="Store Name" />
+                    <input type="text" class="txtfield2" value="Discount Code" />
+                    <input type="text" class="txtfield2" value="Expiration Date" />
+                    <textarea name="textarea" id="textarea" cols="45" rows="5" class="txtfield2" style="height: 100px;">Description</textarea>
+                    <input type="button" class="btn3" value="SUBMIT" />
+
+                </div>
+                <div class="textbox">
+                    <h2>Related Tags</h2>
+                    <ul class="store-right">
+                        <li><a href="#" class="storeslinks">Valentines Flowers</a></li>
+                        <li><a href="#" class="storeslinks">Anniversary Flowers</a></li>
+                        <li><a href="#" class="storeslinks">Birthday Flowers</a></li>
+                    </ul>
+                </div>
+            </div>
+            <p style="clear: both;"></p>
+        }
+        @if (Model.StoreName == "Hotels")
+        { 
+                
+            <div class="left">
+                <div class="store-details">
+                    <div class="banright">
+                        <img src='@Url.Content("~/images/HomeCoupon/hotels.jpg")' />
+                        <div class="bandisc">Average Discount:$74</div>
+                    </div>
+                    <div class="banleft">
+                        <span class="ban-title">Save up to 30% off during the Customer Appreciation Sale! Exclusions apply</span><br />
+                        <span class="ban-txt">
+                            Hotels.com is a leading provider of hotel accommodation around the world, offering booking administrations through its system of limited sites and phone calls.<br />
+Hotels.com gives explorers one of the widest choices of accommodation on the net, including both free and significant chain inns and also providing food toward oneself in excess of 240,000 properties around the world. The organization offers a one-quit shopping hotspot for lodging estimating, enhancements and accessibility furthermore has practical experience in giving explorers convenience amid sold-out periods.
+
+                        </span>
+                    </div>
+                </div>
+                <div class="title">
+                    <h1>TODAY'S TOP COUPONS</h1>
+                </div>
+                <div class="cpnmain">
+                    <a href="#" class="cpnimg">
+                        <img src='@Url.Content("~/images/HomeCoupon/hotels.jpg")' alt="img" /></a>
+                   <div class="cpndes">
+                    <span class="cpntitle">Save Up To 30% Off</span>
+                    <span class="cpntxt">Save up to 30% off during the Customer Appreciation Sale! Exclusions apply. Book by 9/29/14, travel by 10/13/14.</span>
+                    <input name="button" type="submit" class="cpnbtn" id="button" value="REVEAL CODE" />
+                    <span class="cpntxt">See all <a href="#" class="cpn-clink">YOOX Coupons</a> </span>
+                </div>
+                <div class="cpnquot">
+                    <span class="cpnqttxt">50% SUCCESS</span>
+                    <span class="cpnqttxt2">2 Votes</span>
+                    <a href="#" class="like"></a><a href="#" class="dislike"></a>
+                    <a href="#" class="facebook"></a><a href="#" class="twiter"></a><a href="#" class="googleplus"></a>
+                </div>
+                </div>
+                <div class="cpnmain">
+                    <a href="#" class="cpnimg">
+                        <img src='@Url.Content("~/images/HomeCoupon/hotels.jpg")' alt="img" /></a>
+                   <div class="cpndes">
+                    <span class="cpntitle">Top Coupon Codes & Offers</span>
+                    <span class="cpntxt">Find The Top Coupon Codes & Offers On Hotels! Find Your Savings Today!</span>
+                    <input name="button" type="submit" class="cpnbtn" id="button" value="REVEAL CODE" />
+                    <span class="cpntxt">See all <a href="#" class="cpn-clink">YOOX Coupons</a> </span>
+                </div>
+                <div class="cpnquot">
+                    <span class="cpnqttxt">50% SUCCESS</span>
+                    <span class="cpnqttxt2">2 Votes</span>
+                    <a href="#" class="like"></a><a href="#" class="dislike"></a>
+                    <a href="#" class="facebook"></a><a href="#" class="twiter"></a><a href="#" class="googleplus"></a>
+                </div>
+                </div>
+                <div class="newsletter2">
+                    <h2>Never miss 1-800-Flowers coupon!</h2>
+                    <span class="simpletxt">Sign up and get an alert whenever a new coupon, promo code or discount deal
+for 1-800-Flowers is available.</span>
+                    <input type="text" class="txtfield1" />
+                    <input type="button" class="btn1" value="SUBSCRIBE" />
+                </div>
+                @*<div class="cpnmain">
+                    <a href="#" class="cpnimg">
+                        <img src='@Url.Content("~/images/HomeCoupon/hotels.jpg")' alt="img" /></a>
+                    <div class="cpndes">
+                        <span class="cpntitle">Free Shipping on over $99.</span>
+                        <span class="cpntxt">Now Shipping is free on each and every product and everywhere  in the world  on orders over $99.</span>
+                        <input name="button" type="submit" class="cpnbtn" id="button" value="REVEAL CODE" />
+                        <span class="cpntxt">See all <a href="#" class="cpn-clink">YOOX Coupons</a> </span>
+                    </div>
+                    <div class="cpnquot">
+                        <span class="cpnqttxt">50% SUCCESS</span>
+                        <span class="cpnqttxt2">2 Votes</span>
+                        <a href="#" class="like"></a><a href="#" class="dislike"></a>
+                        <a href="#" class="facebook"></a><a href="#" class="twiter"></a><a href="#" class="googleplus"></a>
+                    </div>
+                </div>*@
+                <div class="cpnmain" style="padding: 0; width: 100%;">
+                    <div class="review-title">WRITE A REVIEW</div>
+                    <br />
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                            <td width="3%" align="left" valign="middle">&nbsp;</td>
+                            <td width="97%" height="35" align="left" valign="middle">
+                                <input name="textfield" type="text" id="textfield" value="Name" class="txtfield2" style="width: 200px;" /></td>
+                        </tr>
+                        <tr>
+                            <td align="left" valign="middle">&nbsp;</td>
+                            <td height="35" align="left" valign="middle">
+                                <input name="textfield2" type="text" id="textfield2" value="Email" class="txtfield2" style="width: 200px;" /></td>
+                        </tr>
+
+                        <tr>
+                            <td align="left" valign="middle">&nbsp;</td>
+                            <td height="35" align="left" valign="middle">
+                                <textarea name="textarea" id="textarea" cols="45" rows="5" class="txtfield2" style="height: 100px;">Write your review</textarea></td>
+                        </tr>
+
+                        <tr>
+                            <td align="left" valign="middle">&nbsp;</td>
+                            <td height="35" align="left" valign="middle">
+                                <input type="submit" name="button" id="button" value="SUBMIT" class="btn2" /></td>
+                        </tr>
+                        <tr>
+                            <td align="left" valign="middle">&nbsp;</td>
+                            <td height="20" align="left" valign="middle">&nbsp;</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="right">
+                <div class="topstores">
+                    <h2>Related Stores</h2>
+                    <ul class="store-right">
+                        <li><a href="#" class="storeslinks">Thanksgiving</a></li>
+                        <li><a href="#" class="storeslinks">Christmas</a></li>
+                        <li><a href="#" class="storeslinks">Flowers</a></li>
+                        <li><a href="#" class="storeslinks">Gardening</a></li>
+                        <li><a href="#" class="storeslinks">Gifts & Flowers</a></li>
+                        <li><a href="#" class="storeslinks">Gift Baskets</a></li>
+                        <li><a href="#" class="storeslinks">Valentines Day</a></li>
+                    </ul>
+                    <input type="button" class="btn3" value="VIEW MORE" />
+                </div>
+                <div class="featuredcoupons">
+                    <h2>Related Categories</h2>
+                    <ul class="store-right">
+                        <li><a href="#" class="storeslinks">Seasonal</a></li>
+                        <li><a href="#" class="storeslinks">Thanksgiving</a></li>
+                        <li><a href="#" class="storeslinks">Halloween</a></li>
+                        <li><a href="#" class="storeslinks">Christmas</a></li>
+                        <li><a href="#" class="storeslinks">Flowers</a></li>
+                        <li><a href="#" class="storeslinks">Gardening</a></li>
+                        <li><a href="#" class="storeslinks">Gifts & Flowers</a></li>
+                        <li><a href="#" class="storeslinks">Gift Baskets</a></li>
+                        <li><a href="#" class="storeslinks">Cyber Monday</a></li>
+                        <li><a href="#" class="storeslinks">Valentines Day</a></li>
+                        <li><a href="#" class="storeslinks">Mothers Day</a></li>
+                    </ul>
+                    <input type="button" class="btn3" value="VIEW MORE" />
+                </div>
+                <div class="textbox">
+                    <h2>Submit a Coupon</h2>
+
+                    <input type="text" class="txtfield2" value="Store Name" />
+                    <input type="text" class="txtfield2" value="Discount Code" />
+                    <input type="text" class="txtfield2" value="Expiration Date" />
+                    <textarea name="textarea" id="textarea" cols="45" rows="5" class="txtfield2" style="height: 100px;">Description</textarea>
+                    <input type="button" class="btn3" value="SUBMIT" />
+
+                </div>
+                <div class="textbox">
+                    <h2>Related Tags</h2>
+                    <ul class="store-right">
+                        <li><a href="#" class="storeslinks">Valentines Flowers</a></li>
+                        <li><a href="#" class="storeslinks">Anniversary Flowers</a></li>
+                        <li><a href="#" class="storeslinks">Birthday Flowers</a></li>
+                    </ul>
+                </div>
+            </div>
+            <p style="clear: both;"></p>
+        }
+        @if (Model.StoreName == "Sears")
+        { 
+                
+            <div class="left">
+                <div class="store-details">
+                    <div class="banright">
+                        <img src='@Url.Content("~/images/HomeCoupon/sears.jpg")' />
+                        <div class="bandisc">Average Discount:$74</div>
+                    </div>
+                    <div class="banleft">
+                        <span class="ban-title">Save $35 on orders of $300 or more with code</span><br />
+                        <span class="ban-txt">Sears, Roebuck & Company is an American multinational retail chain headquartered in Hoffman Estates, Illinois, in Greater Chicago. It is the fourth-biggest U.S. retail chain organization by retail deals and is the twelfth biggest retailer in the United States, heading its rival Macy's in 2013 as far as income.</span>
+                    </div>
+                </div>
+                <div class="title">
+                    <h1>TODAY'S TOP COUPONS</h1>
+                </div>
+                <div class="cpnmain">
+                    <a href="#" class="cpnimg">
+                        <img src='@Url.Content("~/images/HomeCoupon/sears.jpg")' alt="img" /></a>
+                    <div class="cpndes">
+                    <span class="cpntitle">$35 Off $300 Sitewide</span>
+                    <span class="cpntxt">Save $35 on orders of $300 or more with code. Some exclusions apply, see site for details.</span>
+                    <input name="button" type="submit" class="cpnbtn" id="button" value="REVEAL CODE" />
+                    <span class="cpntxt">See all <a href="#" class="cpn-clink">YOOX Coupons</a> </span>
+                </div>
+                <div class="cpnquot">
+                    <span class="cpnqttxt">50% SUCCESS</span>
+                    <span class="cpnqttxt2">2 Votes</span>
+                    <a href="#" class="like"></a><a href="#" class="dislike"></a>
+                    <a href="#" class="facebook"></a><a href="#" class="twiter"></a><a href="#" class="googleplus"></a>
+                </div>
+                </div>
+                <div class="cpnmain">
+                    <a href="#" class="cpnimg">
+                        <img src='@Url.Content("~/images/HomeCoupon/sears.jpg")' alt="img" /></a>
+                     <div class="cpndes">
+                    <span class="cpntitle">$25 Off Your Home Appliance Order</span>
+                    <span class="cpntxt">Enjoy $25 Off Home Appliance Purchase Over $399 when you select FREE Store Pickup. Some exclusions apply. See site for details.</span>
+                    <input name="button" type="submit" class="cpnbtn" id="button" value="REVEAL CODE" />
+                    <span class="cpntxt">See all <a href="#" class="cpn-clink">YOOX Coupons</a> </span>
+                </div>
+                <div class="cpnquot">
+                    <span class="cpnqttxt">50% SUCCESS</span>
+                    <span class="cpnqttxt2">2 Votes</span>
+                    <a href="#" class="like"></a><a href="#" class="dislike"></a>
+                    <a href="#" class="facebook"></a><a href="#" class="twiter"></a><a href="#" class="googleplus"></a>
+                </div>
+                </div>
+                <div class="newsletter2">
+                    <h2>Never miss 1-800-Flowers coupon!</h2>
+                    <span class="simpletxt">Sign up and get an alert whenever a new coupon, promo code or discount deal
+for 1-800-Flowers is available.</span>
+                    <input type="text" class="txtfield1" />
+                    <input type="button" class="btn1" value="SUBSCRIBE" />
+                </div>
+                <div class="cpnmain">
+                    <a href="#" class="cpnimg">
+                        <img src='@Url.Content("~/images/HomeCoupon/sears.jpg")' alt="img" /></a>
+                    <div class="cpndes">
+                    <span class="cpntitle">Free Shipping On $59+</span>
+                    <span class="cpntxt">Free shipping on orders over $59. Some exclusions apply. See site for details.</span>
+                    <input name="button" type="submit" class="cpnbtn" id="button" value="REVEAL CODE" />
+                    <span class="cpntxt">See all <a href="#" class="cpn-clink">YOOX Coupons</a> </span>
+                </div>
+                <div class="cpnquot">
+                    <span class="cpnqttxt">50% SUCCESS</span>
+                    <span class="cpnqttxt2">2 Votes</span>
+                    <a href="#" class="like"></a><a href="#" class="dislike"></a>
+                    <a href="#" class="facebook"></a><a href="#" class="twiter"></a><a href="#" class="googleplus"></a>
+                </div>
+                </div>
+                <div class="cpnmain" style="padding: 0; width: 100%;">
+                    <div class="review-title">WRITE A REVIEW</div>
+                    <br />
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                            <td width="3%" align="left" valign="middle">&nbsp;</td>
+                            <td width="97%" height="35" align="left" valign="middle">
+                                <input name="textfield" type="text" id="textfield" value="Name" class="txtfield2" style="width: 200px;" /></td>
+                        </tr>
+                        <tr>
+                            <td align="left" valign="middle">&nbsp;</td>
+                            <td height="35" align="left" valign="middle">
+                                <input name="textfield2" type="text" id="textfield2" value="Email" class="txtfield2" style="width: 200px;" /></td>
+                        </tr>
+
+                        <tr>
+                            <td align="left" valign="middle">&nbsp;</td>
+                            <td height="35" align="left" valign="middle">
+                                <textarea name="textarea" id="textarea" cols="45" rows="5" class="txtfield2" style="height: 100px;">Write your review</textarea></td>
+                        </tr>
+
+                        <tr>
+                            <td align="left" valign="middle">&nbsp;</td>
+                            <td height="35" align="left" valign="middle">
+                                <input type="submit" name="button" id="button" value="SUBMIT" class="btn2" /></td>
+                        </tr>
+                        <tr>
+                            <td align="left" valign="middle">&nbsp;</td>
+                            <td height="20" align="left" valign="middle">&nbsp;</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="right">
+                <div class="topstores">
+                    <h2>Related Stores</h2>
+                    <ul class="store-right">
+                        <li><a href="#" class="storeslinks">Thanksgiving</a></li>
+                        <li><a href="#" class="storeslinks">Christmas</a></li>
+                        <li><a href="#" class="storeslinks">Flowers</a></li>
+                        <li><a href="#" class="storeslinks">Gardening</a></li>
+                        <li><a href="#" class="storeslinks">Gifts & Flowers</a></li>
+                        <li><a href="#" class="storeslinks">Gift Baskets</a></li>
+                        <li><a href="#" class="storeslinks">Valentines Day</a></li>
+                    </ul>
+                    <input type="button" class="btn3" value="VIEW MORE" />
+                </div>
+                <div class="featuredcoupons">
+                    <h2>Related Categories</h2>
+                    <ul class="store-right">
+                        <li><a href="#" class="storeslinks">Seasonal</a></li>
+                        <li><a href="#" class="storeslinks">Thanksgiving</a></li>
+                        <li><a href="#" class="storeslinks">Halloween</a></li>
+                        <li><a href="#" class="storeslinks">Christmas</a></li>
+                        <li><a href="#" class="storeslinks">Flowers</a></li>
+                        <li><a href="#" class="storeslinks">Gardening</a></li>
+                        <li><a href="#" class="storeslinks">Gifts & Flowers</a></li>
+                        <li><a href="#" class="storeslinks">Gift Baskets</a></li>
+                        <li><a href="#" class="storeslinks">Cyber Monday</a></li>
+                        <li><a href="#" class="storeslinks">Valentines Day</a></li>
+                        <li><a href="#" class="storeslinks">Mothers Day</a></li>
+                    </ul>
+                    <input type="button" class="btn3" value="VIEW MORE" />
+                </div>
+                <div class="textbox">
+                    <h2>Submit a Coupon</h2>
+
+                    <input type="text" class="txtfield2" value="Store Name" />
+                    <input type="text" class="txtfield2" value="Discount Code" />
+                    <input type="text" class="txtfield2" value="Expiration Date" />
+                    <textarea name="textarea" id="textarea" cols="45" rows="5" class="txtfield2" style="height: 100px;">Description</textarea>
+                    <input type="button" class="btn3" value="SUBMIT" />
+
+                </div>
+                <div class="textbox">
+                    <h2>Related Tags</h2>
+                    <ul class="store-right">
+                        <li><a href="#" class="storeslinks">Valentines Flowers</a></li>
+                        <li><a href="#" class="storeslinks">Anniversary Flowers</a></li>
+                        <li><a href="#" class="storeslinks">Birthday Flowers</a></li>
+                    </ul>
+                </div>
+            </div>
+            <p style="clear: both;"></p>
+        }
+        @if (Model.StoreName == "Shoes")
+        {
+                
+            <div class="left">
+                <div class="store-details">
+                    <div class="banright">
+                        <img src='@Url.Content("~/images/HomeCoupon/Shoes.jpg")' />
+                        <div class="bandisc">Average Discount:$74</div>
+                    </div>
+                    <div class="banleft">
+                        <span class="ban-title">Frye Sale! Up to 50% off select styles</span><br />
+                        <span class="ban-txt">Shoes.com focused on furnishing every client with the best administration conceivable. They remained behind there items with a 60 day return period and prepaid return shipping. From individual help to advantageous, constant request following, shoes.com is centered on client fulfillment. On their site you will discover premium and famous names like Anne Klein, Born, Clarks, Converse, Crocs, Dansko, DC Shoes, Donald J Pliner, Michael Kors, New Balance, Steve Madden, Via Spiga and others. Regardless of your shoe needs, dress shoes like pumps or oxfords, sports shoes like runners or spikes, or boots from lower leg to knee-high, they've got you secured.</span>
+                    </div>
+                </div>
+                <div class="title">
+                    <h1>TODAY'S TOP COUPONS</h1>
+                </div>
+                <div class="cpnmain">
+                    <a href="#" class="cpnimg">
+                        <img src='@Url.Content("~/images/HomeCoupon/Shoes.jpg")' alt="img" /></a>
+                      <div class="cpndes">
+                    <span class="cpntitle">Up To 50% Off Select Styles</span>
+                    <span class="cpntxt">Frye Sale! Up to 50% off select styles</span>
+                    <input name="button" type="submit" class="cpnbtn" id="button" value="REVEAL CODE" />
+                    <span class="cpntxt">See all <a href="#" class="cpn-clink">YOOX Coupons</a> </span>
+                </div>
+                <div class="cpnquot">
+                    <span class="cpnqttxt">50% SUCCESS</span>
+                    <span class="cpnqttxt2">2 Votes</span>
+                    <a href="#" class="like"></a><a href="#" class="dislike"></a>
+                    <a href="#" class="facebook"></a><a href="#" class="twiter"></a><a href="#" class="googleplus"></a>
+                </div>
+                </div>
+                <div class="cpnmain">
+                    <a href="#" class="cpnimg">
+                        <img src='@Url.Content("~/images/HomeCoupon/Shoes.jpg")' alt="img" /></a>
+                    <div class="cpndes">
+                    <span class="cpntitle">10% Off Footwear + Free Shipping</span>
+                    <span class="cpntxt">Save 10% off your footwear purchase plus get free shipping! Enter promo code at checkout. Some exclusions apply.</span>
+                    <input name="button" type="submit" class="cpnbtn" id="button" value="REVEAL CODE" />
+                    <span class="cpntxt">See all <a href="#" class="cpn-clink">YOOX Coupons</a> </span>
+                </div>
+                <div class="cpnquot">
+                    <span class="cpnqttxt">50% SUCCESS</span>
+                    <span class="cpnqttxt2">2 Votes</span>
+                    <a href="#" class="like"></a><a href="#" class="dislike"></a>
+                    <a href="#" class="facebook"></a><a href="#" class="twiter"></a><a href="#" class="googleplus"></a>
+                </div>
+                </div>
+                <div class="newsletter2">
+                    <h2>Never miss 1-800-Flowers coupon!</h2>
+                    <span class="simpletxt">Sign up and get an alert whenever a new coupon, promo code or discount deal
+for 1-800-Flowers is available.</span>
+                    <input type="text" class="txtfield1" />
+                    <input type="button" class="btn1" value="SUBSCRIBE" />
+                </div>
+                <div class="cpnmain">
+                    <a href="#" class="cpnimg">
+                        <img src='@Url.Content("~/images/HomeCoupon/Shoes.jpg")' alt="img" /></a>
+                    <div class="cpndes">
+                    <span class="cpntitle">Up To 50% Off</span>
+                    <span class="cpntxt">Shop & save up to 50% off on select Converse styles. Place your order today.</span>
+                    <input name="button" type="submit" class="cpnbtn" id="button" value="REVEAL CODE" />
+                    <span class="cpntxt">See all <a href="#" class="cpn-clink">YOOX Coupons</a> </span>
+                </div>
+                <div class="cpnquot">
+                    <span class="cpnqttxt">50% SUCCESS</span>
+                    <span class="cpnqttxt2">2 Votes</span>
+                    <a href="#" class="like"></a><a href="#" class="dislike"></a>
+                    <a href="#" class="facebook"></a><a href="#" class="twiter"></a><a href="#" class="googleplus"></a>
+                </div>
+                </div>
+                <div class="cpnmain" style="padding: 0; width: 100%;">
+                    <div class="review-title">WRITE A REVIEW</div>
+                    <br />
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                            <td width="3%" align="left" valign="middle">&nbsp;</td>
+                            <td width="97%" height="35" align="left" valign="middle">
+                                <input name="textfield" type="text" id="textfield" value="Name" class="txtfield2" style="width: 200px;" /></td>
+                        </tr>
+                        <tr>
+                            <td align="left" valign="middle">&nbsp;</td>
+                            <td height="35" align="left" valign="middle">
+                                <input name="textfield2" type="text" id="textfield2" value="Email" class="txtfield2" style="width: 200px;" /></td>
+                        </tr>
+
+                        <tr>
+                            <td align="left" valign="middle">&nbsp;</td>
+                            <td height="35" align="left" valign="middle">
+                                <textarea name="textarea" id="textarea" cols="45" rows="5" class="txtfield2" style="height: 100px;">Write your review</textarea></td>
+                        </tr>
+
+                        <tr>
+                            <td align="left" valign="middle">&nbsp;</td>
+                            <td height="35" align="left" valign="middle">
+                                <input type="submit" name="button" id="button" value="SUBMIT" class="btn2" /></td>
+                        </tr>
+                        <tr>
+                            <td align="left" valign="middle">&nbsp;</td>
+                            <td height="20" align="left" valign="middle">&nbsp;</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="right">
+                <div class="topstores">
+                    <h2>Related Stores</h2>
+                    <ul class="store-right">
+                        <li><a href="#" class="storeslinks">Thanksgiving</a></li>
+                        <li><a href="#" class="storeslinks">Christmas</a></li>
+                        <li><a href="#" class="storeslinks">Flowers</a></li>
+                        <li><a href="#" class="storeslinks">Gardening</a></li>
+                        <li><a href="#" class="storeslinks">Gifts & Flowers</a></li>
+                        <li><a href="#" class="storeslinks">Gift Baskets</a></li>
+                        <li><a href="#" class="storeslinks">Valentines Day</a></li>
+                    </ul>
+                    <input type="button" class="btn3" value="VIEW MORE" />
+                </div>
+                <div class="featuredcoupons">
+                    <h2>Related Categories</h2>
+                    <ul class="store-right">
+                        <li><a href="#" class="storeslinks">Seasonal</a></li>
+                        <li><a href="#" class="storeslinks">Thanksgiving</a></li>
+                        <li><a href="#" class="storeslinks">Halloween</a></li>
+                        <li><a href="#" class="storeslinks">Christmas</a></li>
+                        <li><a href="#" class="storeslinks">Flowers</a></li>
+                        <li><a href="#" class="storeslinks">Gardening</a></li>
+                        <li><a href="#" class="storeslinks">Gifts & Flowers</a></li>
+                        <li><a href="#" class="storeslinks">Gift Baskets</a></li>
+                        <li><a href="#" class="storeslinks">Cyber Monday</a></li>
+                        <li><a href="#" class="storeslinks">Valentines Day</a></li>
+                        <li><a href="#" class="storeslinks">Mothers Day</a></li>
+                    </ul>
+                    <input type="button" class="btn3" value="VIEW MORE" />
+                </div>
+                <div class="textbox">
+                    <h2>Submit a Coupon</h2>
+
+                    <input type="text" class="txtfield2" value="Store Name" />
+                    <input type="text" class="txtfield2" value="Discount Code" />
+                    <input type="text" class="txtfield2" value="Expiration Date" />
+                    <textarea name="textarea" id="textarea" cols="45" rows="5" class="txtfield2" style="height: 100px;">Description</textarea>
+                    <input type="button" class="btn3" value="SUBMIT" />
+
+                </div>
+                <div class="textbox">
+                    <h2>Related Tags</h2>
+                    <ul class="store-right">
+                        <li><a href="#" class="storeslinks">Valentines Flowers</a></li>
+                        <li><a href="#" class="storeslinks">Anniversary Flowers</a></li>
+                        <li><a href="#" class="storeslinks">Birthday Flowers</a></li>
+                    </ul>
+                </div>
+            </div>
+            <p style="clear: both;"></p>
+        }
+        @if (Model.StoreName == "Macys")
+        {
+                
+            <div class="left">
+                <div class="store-details">
+                    <div class="banright">
+                        <img src='@Url.Content("~/images/HomeCoupon/macys.jpg")' />
+                        <div class="bandisc">Average Discount:$74</div>
+                    </div>
+                    <div class="banleft">
+                        <span class="ban-title">Take an Extra 20% Off Order during the VIP Sale</span><br />
+                        <span class="ban-txt">Macy's, initially R. H. Macy & Co., is a mid-extent chain of retail establishments claimed by American multinational partnership Macy's, Inc. Starting 2012, Macy's is the biggest U.s. retail establishment organization by retail deals and is the sixteenth biggest retailer in the United States in 2013 as far as income. As of January 2014, it works 850 retail establishments areas in the mainland United States, Hawaii, Puerto Rico, and Guam.</span>
+                    </div>
+                </div>
+                <div class="title">
+                    <h1>TODAY'S TOP COUPONS</h1>
+                </div>
+                <div class="cpnmain">
+                    <a href="#" class="cpnimg">
+                        <img src='@Url.Content("~/images/HomeCoupon/macys.jpg")' alt="img" /></a>
+                       <div class="cpndes">
+                    <span class="cpntitle">20% Off VIP Sale</span>
+                    <span class="cpntxt">Take an Extra 20% Off Order during the VIP Sale.</span>
+                    <input name="button" type="submit" class="cpnbtn" id="button" value="REVEAL CODE" />
+                    <span class="cpntxt">See all <a href="#" class="cpn-clink">YOOX Coupons</a> </span>
+                </div>
+                <div class="cpnquot">
+                    <span class="cpnqttxt">50% SUCCESS</span>
+                    <span class="cpnqttxt2">2 Votes</span>
+                    <a href="#" class="like"></a><a href="#" class="dislike"></a>
+                    <a href="#" class="facebook"></a><a href="#" class="twiter"></a><a href="#" class="googleplus"></a>
+                </div>
+                </div>
+                <div class="cpnmain">
+                    <a href="#" class="cpnimg">
+                        <img src='@Url.Content("~/images/HomeCoupon/macys.jpg")' alt="img" /></a>
+                    <div class="cpndes">
+                    <span class="cpntitle">SUp To 20% Off 5 Day Super Sale</span>
+                    <span class="cpntxt">Save up to 20% during the 5 Day Super Sale.</span>
+                    <input name="button" type="submit" class="cpnbtn" id="button" value="REVEAL CODE" />
+                    <span class="cpntxt">See all <a href="#" class="cpn-clink">YOOX Coupons</a> </span>
+                </div>
+                <div class="cpnquot">
+                    <span class="cpnqttxt">50% SUCCESS</span>
+                    <span class="cpnqttxt2">2 Votes</span>
+                    <a href="#" class="like"></a><a href="#" class="dislike"></a>
+                    <a href="#" class="facebook"></a><a href="#" class="twiter"></a><a href="#" class="googleplus"></a>
+                </div>
+                </div>
+                <div class="newsletter2">
+                    <h2>Never miss 1-800-Flowers coupon!</h2>
+                    <span class="simpletxt">Sign up and get an alert whenever a new coupon, promo code or discount deal
+for 1-800-Flowers is available.</span>
+                    <input type="text" class="txtfield1" />
+                    <input type="button" class="btn1" value="SUBSCRIBE" />
+                </div>
+                <div class="cpnmain">
+                    <a href="#" class="cpnimg">
+                        <img src='@Url.Content("~/images/HomeCoupon/macys.jpg")' alt="img" /></a>
+                   <div class="cpndes">
+                    <span class="cpntitle">Up To 80% Off Clearance</span>
+                    <span class="cpntxt">Shop clearance and save 40-80% on apparel, shoes, home & more.</span>
+                    <input name="button" type="submit" class="cpnbtn" id="button" value="REVEAL CODE" />
+                    <span class="cpntxt">See all <a href="#" class="cpn-clink">YOOX Coupons</a> </span>
+                </div>
+                <div class="cpnquot">
+                    <span class="cpnqttxt">50% SUCCESS</span>
+                    <span class="cpnqttxt2">2 Votes</span>
+                    <a href="#" class="like"></a><a href="#" class="dislike"></a>
+                    <a href="#" class="facebook"></a><a href="#" class="twiter"></a><a href="#" class="googleplus"></a>
+                </div>
+                </div>
+                <div class="cpnmain" style="padding: 0; width: 100%;">
+                    <div class="review-title">WRITE A REVIEW</div>
+                    <br />
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                            <td width="3%" align="left" valign="middle">&nbsp;</td>
+                            <td width="97%" height="35" align="left" valign="middle">
+                                <input name="textfield" type="text" id="textfield" value="Name" class="txtfield2" style="width: 200px;" /></td>
+                        </tr>
+                        <tr>
+                            <td align="left" valign="middle">&nbsp;</td>
+                            <td height="35" align="left" valign="middle">
+                                <input name="textfield2" type="text" id="textfield2" value="Email" class="txtfield2" style="width: 200px;" /></td>
+                        </tr>
+
+                        <tr>
+                            <td align="left" valign="middle">&nbsp;</td>
+                            <td height="35" align="left" valign="middle">
+                                <textarea name="textarea" id="textarea" cols="45" rows="5" class="txtfield2" style="height: 100px;">Write your review</textarea></td>
+                        </tr>
+
+                        <tr>
+                            <td align="left" valign="middle">&nbsp;</td>
+                            <td height="35" align="left" valign="middle">
+                                <input type="submit" name="button" id="button" value="SUBMIT" class="btn2" /></td>
+                        </tr>
+                        <tr>
+                            <td align="left" valign="middle">&nbsp;</td>
+                            <td height="20" align="left" valign="middle">&nbsp;</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="right">
+                <div class="topstores">
+                    <h2>Related Stores</h2>
+                    <ul class="store-right">
+                        <li><a href="#" class="storeslinks">Thanksgiving</a></li>
+                        <li><a href="#" class="storeslinks">Christmas</a></li>
+                        <li><a href="#" class="storeslinks">Flowers</a></li>
+                        <li><a href="#" class="storeslinks">Gardening</a></li>
+                        <li><a href="#" class="storeslinks">Gifts & Flowers</a></li>
+                        <li><a href="#" class="storeslinks">Gift Baskets</a></li>
+                        <li><a href="#" class="storeslinks">Valentines Day</a></li>
+                    </ul>
+                    <input type="button" class="btn3" value="VIEW MORE" />
+                </div>
+                <div class="featuredcoupons">
+                    <h2>Related Categories</h2>
+                    <ul class="store-right">
+                        <li><a href="#" class="storeslinks">Seasonal</a></li>
+                        <li><a href="#" class="storeslinks">Thanksgiving</a></li>
+                        <li><a href="#" class="storeslinks">Halloween</a></li>
+                        <li><a href="#" class="storeslinks">Christmas</a></li>
+                        <li><a href="#" class="storeslinks">Flowers</a></li>
+                        <li><a href="#" class="storeslinks">Gardening</a></li>
+                        <li><a href="#" class="storeslinks">Gifts & Flowers</a></li>
+                        <li><a href="#" class="storeslinks">Gift Baskets</a></li>
+                        <li><a href="#" class="storeslinks">Cyber Monday</a></li>
+                        <li><a href="#" class="storeslinks">Valentines Day</a></li>
+                        <li><a href="#" class="storeslinks">Mothers Day</a></li>
+                    </ul>
+                    <input type="button" class="btn3" value="VIEW MORE" />
+                </div>
+                <div class="textbox">
+                    <h2>Submit a Coupon</h2>
+
+                    <input type="text" class="txtfield2" value="Store Name" />
+                    <input type="text" class="txtfield2" value="Discount Code" />
+                    <input type="text" class="txtfield2" value="Expiration Date" />
+                    <textarea name="textarea" id="textarea" cols="45" rows="5" class="txtfield2" style="height: 100px;">Description</textarea>
+                    <input type="button" class="btn3" value="SUBMIT" />
+
+                </div>
+                <div class="textbox">
+                    <h2>Related Tags</h2>
+                    <ul class="store-right">
+                        <li><a href="#" class="storeslinks">Valentines Flowers</a></li>
+                        <li><a href="#" class="storeslinks">Anniversary Flowers</a></li>
+                        <li><a href="#" class="storeslinks">Birthday Flowers</a></li>
+                    </ul>
+                </div>
+            </div>
+            <p style="clear: both;"></p>
+        }
+        @if (Model.StoreName == "BestBuy")
+        {
+                
+            <div class="left">
+                <div class="store-details">
+                    <div class="banright">
+                        <img src='@Url.Content("~/images/HomeCoupon/best buy.jpg")' />
+                        <div class="bandisc">Average Discount:$74</div>
+                    </div>
+                    <div class="banleft">
+                        <span class="ban-title">Check Out This Weeks Specials & Save Up To 25% On Select Laptops + Get Free Shipping</span><br />
+                        <span class="ban-txt">Best Buy Co., Inc. is an American multinational customer hardware partnership headquartered in Richfield, Minnesota, Minneapolis suburb. It works in the United States, Puerto Rico, Mexico, Canada, and China. Best Buy was named "Organization of the Year" by Forbes magazine in 2004 "Forte Retailer of the Decade" by Discount Store News in 2001, positioned in the Top 10 of "America's Most Generous Corporations" by Forbes in 2005 (focused around 2004 giving), and made Fortune magazine's List of Most Admired Companies in 2006.</span>
+                    </div>
+                </div>
+                <div class="title">
+                    <h1>TODAY'S TOP COUPONS</h1>
+                </div>
+                <div class="cpnmain">
+                    <a href="#" class="cpnimg">
+                        <img src='@Url.Content("~/images/HomeCoupon/best buy.jpg")' alt="img" /></a>
+                     <div class="cpndes">
+                    <span class="cpntitle">Up To 50% Off Select Styles</span>
+                    <span class="cpntxt">Check Out This Weeks Specials & Save Up To 25% On Select Laptops + Get Free Shipping. Discount Available For A Limited Time.</span>
+                    <input name="button" type="submit" class="cpnbtn" id="button" value="REVEAL CODE" />
+                    <span class="cpntxt">See all <a href="#" class="cpn-clink">YOOX Coupons</a> </span>
+                </div>
+                <div class="cpnquot">
+                    <span class="cpnqttxt">50% SUCCESS</span>
+                    <span class="cpnqttxt2">2 Votes</span>
+                    <a href="#" class="like"></a><a href="#" class="dislike"></a>
+                    <a href="#" class="facebook"></a><a href="#" class="twiter"></a><a href="#" class="googleplus"></a>
+                </div>
+                </div>
+                <div class="cpnmain">
+                    <a href="#" class="cpnimg">
+                        <img src='@Url.Content("~/images/HomeCoupon/best buy.jpg")' alt="img" /></a>
+                   <div class="cpndes">
+                    <span class="cpntitle">10% Off Footwear + Free Shipping</span>
+                    <span class="cpntxt">Save up to 20% on Major Appliances. Excludes Clearance & More and Marketplace items, and brands of appliances sold in Pacific Sales stores within Best Buy stores.</span>
+                    <input name="button" type="submit" class="cpnbtn" id="button" value="REVEAL CODE" />
+                    <span class="cpntxt">See all <a href="#" class="cpn-clink">YOOX Coupons</a> </span>
+                </div>
+                <div class="cpnquot">
+                    <span class="cpnqttxt">50% SUCCESS</span>
+                    <span class="cpnqttxt2">2 Votes</span>
+                    <a href="#" class="like"></a><a href="#" class="dislike"></a>
+                    <a href="#" class="facebook"></a><a href="#" class="twiter"></a><a href="#" class="googleplus"></a>
+                </div>
+                </div>
+                <div class="newsletter2">
+                    <h2>Never miss 1-800-Flowers coupon!</h2>
+                    <span class="simpletxt">Sign up and get an alert whenever a new coupon, promo code or discount deal
+for 1-800-Flowers is available.</span>
+                    <input type="text" class="txtfield1" />
+                    <input type="button" class="btn1" value="SUBSCRIBE" />
+                </div>
+                <div class="cpnmain">
+                    <a href="#" class="cpnimg">
+                        <img src='@Url.Content("~/images/HomeCoupon/best buy.jpg")' alt="img" /></a>
+                     <div class="cpndes">
+                    <span class="cpntitle">Up To 50% Off</span>
+                    <span class="cpntxt">Save Up To 50% Off This Weeks Video Game Offers + Get Free Shipping On Orders Over $35 Or More.</span>
+                    <input name="button" type="submit" class="cpnbtn" id="button" value="REVEAL CODE" />
+                    <span class="cpntxt">See all <a href="#" class="cpn-clink">YOOX Coupons</a> </span>
+                </div>
+                <div class="cpnquot">
+                    <span class="cpnqttxt">50% SUCCESS</span>
+                    <span class="cpnqttxt2">2 Votes</span>
+                    <a href="#" class="like"></a><a href="#" class="dislike"></a>
+                    <a href="#" class="facebook"></a><a href="#" class="twiter"></a><a href="#" class="googleplus"></a>
+                </div>
+                </div>
+                <div class="cpnmain" style="padding: 0; width: 100%;">
+                    <div class="review-title">WRITE A REVIEW</div>
+                    <br />
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                            <td width="3%" align="left" valign="middle">&nbsp;</td>
+                            <td width="97%" height="35" align="left" valign="middle">
+                                <input name="textfield" type="text" id="textfield" value="Name" class="txtfield2" style="width: 200px;" /></td>
+                        </tr>
+                        <tr>
+                            <td align="left" valign="middle">&nbsp;</td>
+                            <td height="35" align="left" valign="middle">
+                                <input name="textfield2" type="text" id="textfield2" value="Email" class="txtfield2" style="width: 200px;" /></td>
+                        </tr>
+
+                        <tr>
+                            <td align="left" valign="middle">&nbsp;</td>
+                            <td height="35" align="left" valign="middle">
+                                <textarea name="textarea" id="textarea" cols="45" rows="5" class="txtfield2" style="height: 100px;">Write your review</textarea></td>
+                        </tr>
+
+                        <tr>
+                            <td align="left" valign="middle">&nbsp;</td>
+                            <td height="35" align="left" valign="middle">
+                                <input type="submit" name="button" id="button" value="SUBMIT" class="btn2" /></td>
+                        </tr>
+                        <tr>
+                            <td align="left" valign="middle">&nbsp;</td>
+                            <td height="20" align="left" valign="middle">&nbsp;</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="right">
+                <div class="topstores">
+                    <h2>Related Stores</h2>
+                    <ul class="store-right">
+                        <li><a href="#" class="storeslinks">Thanksgiving</a></li>
+                        <li><a href="#" class="storeslinks">Christmas</a></li>
+                        <li><a href="#" class="storeslinks">Flowers</a></li>
+                        <li><a href="#" class="storeslinks">Gardening</a></li>
+                        <li><a href="#" class="storeslinks">Gifts & Flowers</a></li>
+                        <li><a href="#" class="storeslinks">Gift Baskets</a></li>
+                        <li><a href="#" class="storeslinks">Valentines Day</a></li>
+                    </ul>
+                    <input type="button" class="btn3" value="VIEW MORE" />
+                </div>
+                <div class="featuredcoupons">
+                    <h2>Related Categories</h2>
+                    <ul class="store-right">
+                        <li><a href="#" class="storeslinks">Seasonal</a></li>
+                        <li><a href="#" class="storeslinks">Thanksgiving</a></li>
+                        <li><a href="#" class="storeslinks">Halloween</a></li>
+                        <li><a href="#" class="storeslinks">Christmas</a></li>
+                        <li><a href="#" class="storeslinks">Flowers</a></li>
+                        <li><a href="#" class="storeslinks">Gardening</a></li>
+                        <li><a href="#" class="storeslinks">Gifts & Flowers</a></li>
+                        <li><a href="#" class="storeslinks">Gift Baskets</a></li>
+                        <li><a href="#" class="storeslinks">Cyber Monday</a></li>
+                        <li><a href="#" class="storeslinks">Valentines Day</a></li>
+                        <li><a href="#" class="storeslinks">Mothers Day</a></li>
+                    </ul>
+                    <input type="button" class="btn3" value="VIEW MORE" />
+                </div>
+                <div class="textbox">
+                    <h2>Submit a Coupon</h2>
+
+                    <input type="text" class="txtfield2" value="Store Name" />
+                    <input type="text" class="txtfield2" value="Discount Code" />
+                    <input type="text" class="txtfield2" value="Expiration Date" />
+                    <textarea name="textarea" id="textarea" cols="45" rows="5" class="txtfield2" style="height: 100px;">Description</textarea>
+                    <input type="button" class="btn3" value="SUBMIT" />
+
+                </div>
+                <div class="textbox">
+                    <h2>Related Tags</h2>
+                    <ul class="store-right">
+                        <li><a href="#" class="storeslinks">Valentines Flowers</a></li>
+                        <li><a href="#" class="storeslinks">Anniversary Flowers</a></li>
+                        <li><a href="#" class="storeslinks">Birthday Flowers</a></li>
+                    </ul>
+                </div>
+            </div>
+            <p style="clear: both;"></p>
+        }
+        @if (Model.StoreName == "Khols")
+        {
+       
+                
+            <div class="left">
+                <div class="store-details">
+                    <div class="banright">
+                        <img src='@Url.Content("~/images/HomeCoupon/Kohls.jpg")' />
+                        <div class="bandisc">Average Discount:$74</div>
+                    </div>
+                    <div class="banleft">
+                        <span class="ban-title">Take 20% Off Your Purchase In-Store & Online</span><br />
+                        <span class="ban-txt">Kohl's Corporation, is an American retail establishment retail network. The main "Kohl" store was a market established in 1946, and the first Kohl retail chain was established in 1962.it is presently the second biggest retail establishment by retail deals in the United States.</span>
+                    </div>
+                </div>
+                <div class="title">
+                    <h1>TODAY'S TOP COUPONS</h1>
+                </div>
+                <div class="cpnmain">
+                    <a href="#" class="cpnimg">
+                        <img src='@Url.Content("~/images/HomeCoupon/Kohls.jpg")' alt="img" /></a>
+                    <div class="cpndes">
+                    <span class="cpntitle">20% Off In-Store & Online</span>
+                    <span class="cpntxt">Take 20% Off Your Purchase In-Store & Online.</span>
+                    <input name="button" type="submit" class="cpnbtn" id="button" value="REVEAL CODE" />
+                    <span class="cpntxt">See all <a href="#" class="cpn-clink">YOOX Coupons</a> </span>
+                </div>
+                <div class="cpnquot">
+                    <span class="cpnqttxt">50% SUCCESS</span>
+                    <span class="cpnqttxt2">2 Votes</span>
+                    <a href="#" class="like"></a><a href="#" class="dislike"></a>
+                    <a href="#" class="facebook"></a><a href="#" class="twiter"></a><a href="#" class="googleplus"></a>
+                </div>
+                </div>
+                <div class="cpnmain">
+                    <a href="#" class="cpnimg">
+                        <img src='@Url.Content("~/images/HomeCoupon/Kohls.jpg")' alt="img" /></a>
+                    <div class="cpndes">
+                    <span class="cpntitle">Save On New Fall Looks At Kohl's</span>
+                    <span class="cpntxt">Save with Doorbusters and Bonus Buys In-Store at Kohl's.</span>
+                    <input name="button" type="submit" class="cpnbtn" id="button" value="REVEAL CODE" />
+                    <span class="cpntxt">See all <a href="#" class="cpn-clink">YOOX Coupons</a> </span>
+                </div>
+                <div class="cpnquot">
+                    <span class="cpnqttxt">50% SUCCESS</span>
+                    <span class="cpnqttxt2">2 Votes</span>
+                    <a href="#" class="like"></a><a href="#" class="dislike"></a>
+                    <a href="#" class="facebook"></a><a href="#" class="twiter"></a><a href="#" class="googleplus"></a>
+                </div>
+                </div>
+                <div class="newsletter2">
+                    <h2>Never miss 1-800-Flowers coupon!</h2>
+                    <span class="simpletxt">Sign up and get an alert whenever a new coupon, promo code or discount deal
+for 1-800-Flowers is available.</span>
+                    <input type="text" class="txtfield1" />
+                    <input type="button" class="btn1" value="SUBSCRIBE" />
+                </div>
+                <div class="cpnmain">
+                    <a href="#" class="cpnimg">
+                        <img src='@Url.Content("~/images/HomeCoupon/Kohls.jpg")' alt="img" /></a>
+                    <div class="cpndes">
+                    <span class="cpntitle">Free Shipping On $50+</span>
+                    <span class="cpntxt">Free Shipping on orders of $50 or more.</span>
+                    <input name="button" type="submit" class="cpnbtn" id="button" value="REVEAL CODE" />
+                    <span class="cpntxt">See all <a href="#" class="cpn-clink">YOOX Coupons</a> </span>
+                </div>
+                <div class="cpnquot">
+                    <span class="cpnqttxt">50% SUCCESS</span>
+                    <span class="cpnqttxt2">2 Votes</span>
+                    <a href="#" class="like"></a><a href="#" class="dislike"></a>
+                    <a href="#" class="facebook"></a><a href="#" class="twiter"></a><a href="#" class="googleplus"></a>
+                </div>
+                </div>
+                <div class="cpnmain" style="padding: 0; width: 100%;">
+                    <div class="review-title">WRITE A REVIEW</div>
+                    <br />
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                            <td width="3%" align="left" valign="middle">&nbsp;</td>
+                            <td width="97%" height="35" align="left" valign="middle">
+                                <input name="textfield" type="text" id="textfield" value="Name" class="txtfield2" style="width: 200px;" /></td>
+                        </tr>
+                        <tr>
+                            <td align="left" valign="middle">&nbsp;</td>
+                            <td height="35" align="left" valign="middle">
+                                <input name="textfield2" type="text" id="textfield2" value="Email" class="txtfield2" style="width: 200px;" /></td>
+                        </tr>
+
+                        <tr>
+                            <td align="left" valign="middle">&nbsp;</td>
+                            <td height="35" align="left" valign="middle">
+                                <textarea name="textarea" id="textarea" cols="45" rows="5" class="txtfield2" style="height: 100px;">Write your review</textarea></td>
+                        </tr>
+
+                        <tr>
+                            <td align="left" valign="middle">&nbsp;</td>
+                            <td height="35" align="left" valign="middle">
+                                <input type="submit" name="button" id="button" value="SUBMIT" class="btn2" /></td>
+                        </tr>
+                        <tr>
+                            <td align="left" valign="middle">&nbsp;</td>
+                            <td height="20" align="left" valign="middle">&nbsp;</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="right">
+                <div class="topstores">
+                    <h2>Related Stores</h2>
+                    <ul class="store-right">
+                        <li><a href="#" class="storeslinks">Thanksgiving</a></li>
+                        <li><a href="#" class="storeslinks">Christmas</a></li>
+                        <li><a href="#" class="storeslinks">Flowers</a></li>
+                        <li><a href="#" class="storeslinks">Gardening</a></li>
+                        <li><a href="#" class="storeslinks">Gifts & Flowers</a></li>
+                        <li><a href="#" class="storeslinks">Gift Baskets</a></li>
+                        <li><a href="#" class="storeslinks">Valentines Day</a></li>
+                    </ul>
+                    <input type="button" class="btn3" value="VIEW MORE" />
+                </div>
+                <div class="featuredcoupons">
+                    <h2>Related Categories</h2>
+                    <ul class="store-right">
+                        <li><a href="#" class="storeslinks">Seasonal</a></li>
+                        <li><a href="#" class="storeslinks">Thanksgiving</a></li>
+                        <li><a href="#" class="storeslinks">Halloween</a></li>
+                        <li><a href="#" class="storeslinks">Christmas</a></li>
+                        <li><a href="#" class="storeslinks">Flowers</a></li>
+                        <li><a href="#" class="storeslinks">Gardening</a></li>
+                        <li><a href="#" class="storeslinks">Gifts & Flowers</a></li>
+                        <li><a href="#" class="storeslinks">Gift Baskets</a></li>
+                        <li><a href="#" class="storeslinks">Cyber Monday</a></li>
+                        <li><a href="#" class="storeslinks">Valentines Day</a></li>
+                        <li><a href="#" class="storeslinks">Mothers Day</a></li>
+                    </ul>
+                    <input type="button" class="btn3" value="VIEW MORE" />
+                </div>
+                <div class="textbox">
+                    <h2>Submit a Coupon</h2>
+
+                    <input type="text" class="txtfield2" value="Store Name" />
+                    <input type="text" class="txtfield2" value="Discount Code" />
+                    <input type="text" class="txtfield2" value="Expiration Date" />
+                    <textarea name="textarea" id="textarea" cols="45" rows="5" class="txtfield2" style="height: 100px;">Description</textarea>
+                    <input type="button" class="btn3" value="SUBMIT" />
+
+                </div>
+                <div class="textbox">
+                    <h2>Related Tags</h2>
+                    <ul class="store-right">
+                        <li><a href="#" class="storeslinks">Valentines Flowers</a></li>
+                        <li><a href="#" class="storeslinks">Anniversary Flowers</a></li>
+                        <li><a href="#" class="storeslinks">Birthday Flowers</a></li>
+                    </ul>
+                </div>
+            </div>
+            <p style="clear: both;"></p>
+
+        }
+    </div>
+</div>

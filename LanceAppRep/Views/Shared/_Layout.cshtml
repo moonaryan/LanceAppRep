@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>@ViewBag.Title</title>
+    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width" />
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+    <header>
+        <div class="logoandsearch">
+            <div class="container1">
+                <a href="@Url.Action("Index", "Home")" class="logo"></a>
+                <div class="search">
+                    <input type="text" class="searchfield" value="Search Coupon Codes for 20,000+ Stores" />
+                    <input name="button" type="submit" class="searchbtn" id="button" value="Search" />
+                    <span class="searchtxt">e.g. sears nordstrom eastbay finish line hotels.com target kohl's amazon</span>
+                </div>
+                <p style="clear: both;"></p>
+            </div>
+        </div>
+        <div class="menumain">
+            <div class="container2">
+                <div class="menu">
+                    <ul>
+                        <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                        <li>@Html.ActionLink("Stores", "Store", "Home")</li>
+                        <li>@Html.ActionLink("Brands", "Brands", "Home")</li>
+                        <li>@Html.ActionLink("Categories", "Brands", "Home")</li>
+                        <li>@Html.ActionLink("Best Products", "Store", "Home")</li>
+                        <li>@Html.ActionLink("Blog", "Index", "Home")</li>
+                    </ul>
+                </div>
+                <p style="clear: both;"></p>
+            </div>
+        </div>
+    </header>
+    <div id="body">
+        @RenderSection("featured", required: false)
+        <section class="content-wrapper main-content clear-fix">
+            @RenderBody()
+        </section>
+    </div>
+    @Scripts.Render("~/bundles/jquery")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

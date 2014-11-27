@@ -1,0 +1,509 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+    Layout = "~/Views/Shared/_LayoutSlider.cshtml";
+}
+
+@*<div class="logoandsearch">
+    <div class="container1">
+        <a href="index.html" class="logo"></a>
+        <div class="search">
+            <input type="text" class="searchfield" value="Search Coupon Codes for 20,000+ Stores" />
+            <input name="button" type="submit" class="searchbtn" id="button" value="Search" />
+            <span class="searchtxt">e.g. sears nordstrom eastbay finish line hotels.com target kohl's amazon</span>
+        </div>
+        <p style="clear: both;"></p>
+    </div>
+</div>*@
+
+<div class="slider">
+    <div class="container3">
+        <div class="slider-left">
+            <h2>Welcome To CouponKnot.com...!</h2>
+            <span class="simpletxt">CouponKnot.com is a site that ties a knot between popular brands, stores around the globe and the shoppers who want to make online purchases in discounted prices. We have coupons, promo codes, discounts, deals and offers on outrageous product of different categories. Never miss CouponKnot.com before you desire to shop online.<br />
+        </div>
+        <div class="slider-right">
+            <h2>Top Stores!</h2>
+            <div class="str-main">
+                <a href="@Url.Action("StoresList", new { id = "BestBuy" })">
+                    <div class="str-logo">
+                        <img src="../images/TopBrands/best buy.jpg" alt="imb" />
+                    </div>
+                </a>
+                <div class="str-text">www.bestbuy.com</div>
+            </div>
+            <div class="str-main">
+                <a href="@Url.Action("StoresList", new { id = "FamousFoot" })">
+                    <div class="str-logo">
+                        <img src="../images/TopBrands/famous footwear.jpg" alt="imb" />
+                    </div>
+                </a>
+                <div class="str-text">FamousFootwear.com</div>
+            </div>
+            <div class="str-main">
+                <a href="@Url.Action("StoresList", new { id = "Hotels" })">
+                    <div class="str-logo">
+                        <img src="../images/TopBrands/hotels.jpg" alt="imb" />
+                    </div>
+                </a>
+                <div class="str-text">Hotels.com</div>
+            </div>
+            <div class="str-main">
+                <a href="@Url.Action("StoresList", new { id = "JPC" })">
+                    <div class="str-logo">
+                        <img src="../images/TopBrands/jcpenney.jpg" alt="imb" />
+                    </div>
+                </a>
+                <div class="str-text">JCPenney.com</div>
+            </div>
+            <div class="str-main">
+                <a href="@Url.Action("StoresList", new { id = "Khols" })">
+                    <div class="str-logo">
+                        <img src="../images/TopBrands/Kohls.jpg" alt="imb" />
+                    </div>
+                </a>
+                <div class="str-text">www.kohls.com</div>
+            </div>
+            <div class="str-main">
+                <a href="@Url.Action("StoresList", new { id = "Macys" })">
+                    <div class="str-logo">
+                        <img src="../images/TopBrands/macys.jpg" alt="imb" />
+                    </div>
+                </a>
+                <div class="str-text">www.macys.com</div>
+            </div>
+            <div class="str-main">
+                <a href="@Url.Action("StoresList", new { id = "Sears" })">
+                    <div class="str-logo">
+                        <img src="../images/TopBrands/sears.jpg" alt="imb" />
+                    </div>
+                    <div class="str-text">www.Sears.com</div>
+                </a>
+            </div>
+            <div class="str-main">
+                <a href="@Url.Action("StoresList", new { id = "Shoes" })">
+                    <div class="str-logo">
+                        <img src="../images/TopBrands/Shoes.jpg" alt="imb" />
+                    </div>
+                </a>
+                <div class="str-text">www.shoes.com</div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<div class="mainbody">
+    <div class="container4">
+        <div class="left">
+            <div class="title">
+                <h1>TODAY'S TOP COUPONS</h1>
+            </div>
+
+            <div class="cpnmain">
+                <a href="#" class="cpnimg">
+                    <img src="../images/HomeCoupon/jcpenney.jpg" alt="img" /></a>
+                <div class="cpndes">
+                    <span class="cpntitle">Get 15% Off Sitewide Purchases</span>
+                    <span class="cpntxt">Avail 15% off coupon on your purchases whole sitewide. Some exclusions also apply.</span>
+                    <input name="button" type="submit" class="cpnbtn" id="button" value="REVEAL CODE" />
+                    <span class="cpntxt">See all @Html.ActionLink("jcpenney Coupons", "StoresList", new { id = "JPC" }, new { @class = "cpn-clink" }) </span>
+                </div>
+                <div class="cpnquot">
+                    <span class="cpnqttxt">50% SUCCESS</span>
+                    <span class="cpnqttxt2">3 Votes</span>
+                    <a href="#" class="like"></a><a href="#" class="dislike"></a>
+                    <a href="#" class="facebook"></a><a href="#" class="twiter"></a><a href="#" class="googleplus"></a>
+                </div>
+            </div>
+            @* <div class="cpnmain">
+                <a href="#" class="cpnimg">
+                    <img src="../images/HomeCoupon/jcpenney.jpg" alt="img" /></a>
+                <div class="cpndes">
+                    <span class="cpntitle">Levi's Jeans, Get Up To 55% Off</span>
+                    <span class="cpntxt">Get Up to 55% off Levi's Jeans only on JCPenney.</span>
+                    <input name="button" type="submit" class="cpnbtn" id="button" value="REVEAL CODE" />
+                    <span class="cpntxt">See all @Html.ActionLink("YOOX Coupons", "StoresList", new { id = "JPC" }, new { @class = "cpn-clink" })</span>
+                </div>
+                <div class="cpnquot">
+                    <span class="cpnqttxt">50% SUCCESS</span>
+                    <span class="cpnqttxt2">2 Votes</span>
+                    <a href="#" class="like"></a><a href="#" class="dislike"></a>
+                    <a href="#" class="facebook"></a><a href="#" class="twiter"></a><a href="#" class="googleplus"></a>
+                </div>
+            </div>
+          <div class="cpnmain">
+                <a href="#" class="cpnimg">
+                    <img src="../images/HomeCoupon/jcpenney.jpg" alt="img" /></a>
+                <div class="cpndes">
+                    <span class="cpntitle">Free Shipping on over $99.</span>
+                    <span class="cpntxt">Now Shipping is free on each and every product and everywhere  in the world  on orders over $99.</span>
+                    <input name="button" type="submit" class="cpnbtn" id="button" value="REVEAL CODE" />
+                    <span class="cpntxt">See all @Html.ActionLink("YOOX Coupons", "StoresList", new { id = "JPC" }, new { @class = "cpn-clink" }) </span>
+                </div>
+                <div class="cpnquot">
+                    <span class="cpnqttxt">50% SUCCESS</span>
+                    <span class="cpnqttxt2">2 Votes</span>
+                    <a href="#" class="like"></a><a href="#" class="dislike"></a>
+                    <a href="#" class="facebook"></a><a href="#" class="twiter"></a><a href="#" class="googleplus"></a>
+                </div>
+            </div>*@
+            <div class="cpnmain">
+                <a href="#" class="cpnimg">
+                    <img src="../images/HomeCoupon/famous footwear.jpg" alt="img" /></a>
+                <div class="cpndes">
+                    <span class="cpntitle">20% Off Sitewide</span>
+                    <span class="cpntxt">Avail coupons of Extra 20% Off Entire Purchase. One time use code. </span>
+                    <input name="button" type="submit" class="cpnbtn" id="button" value="REVEAL CODE" />
+                    <span class="cpntxt">See all @Html.ActionLink("Famous Footwear Coupons", "StoresList", new { id = "FamousFoot" }, new { @class = "cpn-clink" }) </span>
+                </div>
+                <div class="cpnquot">
+                    <span class="cpnqttxt">50% SUCCESS</span>
+                    <span class="cpnqttxt2">2 Votes</span>
+                    <a href="#" class="like"></a><a href="#" class="dislike"></a>
+                    <a href="#" class="facebook"></a><a href="#" class="twiter"></a><a href="#" class="googleplus"></a>
+                </div>
+            </div>
+            @* <div class="cpnmain">
+                <a href="#" class="cpnimg">
+                    <img src="../images/HomeCoupon/famous footwear.jpg" alt="img" /></a>
+                <div class="cpndes">
+                    <span class="cpntitle">Flat Rate Shipping</span>
+                    <span class="cpntxt">Flat Rate Shipping get $4.50 off on your entire order! No code needed.</span>
+                    <input name="button" type="submit" class="cpnbtn" id="button" value="REVEAL CODE" />
+                    <span class="cpntxt">See all @Html.ActionLink("YOOX Coupons", "StoresList", new { id = "FamousFoot" }, new { @class = "cpn-clink" }) </span>
+                </div>
+                <div class="cpnquot">
+                    <span class="cpnqttxt">50% SUCCESS</span>
+                    <span class="cpnqttxt2">2 Votes</span>
+                    <a href="#" class="like"></a><a href="#" class="dislike"></a>
+                    <a href="#" class="facebook"></a><a href="#" class="twiter"></a><a href="#" class="googleplus"></a>
+                </div>
+            </div>
+            <div class="cpnmain">
+                <a href="#" class="cpnimg">
+                    <img src="../images/HomeCoupon/famous footwear.jpg" alt="img" /></a>
+                <div class="cpndes">
+                    <span class="cpntitle">Get A $5 Coupon</span>
+                    <span class="cpntxt">Leave your Email For newsletter subscription on Famous Footwear & Receive A $5 Coupon Code For Your Next Purchase.</span>
+                    <input name="button" type="submit" class="cpnbtn" id="button" value="REVEAL CODE" />
+                    <span class="cpntxt">See all @Html.ActionLink("YOOX Coupons", "StoresList", new { id = "FamousFoot" }, new { @class = "cpn-clink" }) </span>
+                </div>
+                <div class="cpnquot">
+                    <span class="cpnqttxt">50% SUCCESS</span>
+                    <span class="cpnqttxt2">2 Votes</span>
+                    <a href="#" class="like"></a><a href="#" class="dislike"></a>
+                    <a href="#" class="facebook"></a><a href="#" class="twiter"></a><a href="#" class="googleplus"></a>
+                </div>
+            </div>*@
+            <div class="cpnmain">
+                <a href="#" class="cpnimg">
+                    <img src="../images/HomeCoupon/hotels.jpg" alt="img" /></a>
+                <div class="cpndes">
+                    <span class="cpntitle">Save Up To 30% Off</span>
+                    <span class="cpntxt">Save up to 30% off during the Customer Appreciation Sale! Exclusions apply. Book by 9/29/14, travel by 10/13/14.</span>
+                    <input name="button" type="submit" class="cpnbtn" id="button" value="REVEAL CODE" />
+                    <span class="cpntxt">See all @Html.ActionLink("Hotels Coupons", "StoresList", new { id = "Hotels" }, new { @class = "cpn-clink" }) </span>
+                </div>
+                <div class="cpnquot">
+                    <span class="cpnqttxt">50% SUCCESS</span>
+                    <span class="cpnqttxt2">2 Votes</span>
+                    <a href="#" class="like"></a><a href="#" class="dislike"></a>
+                    <a href="#" class="facebook"></a><a href="#" class="twiter"></a><a href="#" class="googleplus"></a>
+                </div>
+            </div>
+            @*<div class="cpnmain">
+                <a href="#" class="cpnimg">
+                    <img src="../images/HomeCoupon/hotels.jpg" alt="img" /></a>
+                <div class="cpndes">
+                    <span class="cpntitle">Top Coupon Codes & Offers</span>
+                    <span class="cpntxt">Find The Top Coupon Codes & Offers On Hotels! Find Your Savings Today!</span>
+                    <input name="button" type="submit" class="cpnbtn" id="button" value="REVEAL CODE" />
+                    <span class="cpntxt">See all @Html.ActionLink("YOOX Coupons", "StoresList", new { id = "Hotels" }, new { @class = "cpn-clink" }) </span>
+                </div>
+                <div class="cpnquot">
+                    <span class="cpnqttxt">50% SUCCESS</span>
+                    <span class="cpnqttxt2">2 Votes</span>
+                    <a href="#" class="like"></a><a href="#" class="dislike"></a>
+                    <a href="#" class="facebook"></a><a href="#" class="twiter"></a><a href="#" class="googleplus"></a>
+                </div>
+            </div>
+            <div class="cpnmain">
+                <a href="#" class="cpnimg">
+                    <img src="../images/HomeCoupon/sears.jpg" alt="img" /></a>
+                <div class="cpndes">
+                    <span class="cpntitle">$35 Off $300 Sitewide</span>
+                    <span class="cpntxt">Save $35 on orders of $300 or more with code. Some exclusions apply, see site for details.</span>
+                    <input name="button" type="submit" class="cpnbtn" id="button" value="REVEAL CODE" />
+                    <span class="cpntxt">See all @Html.ActionLink("YOOX Coupons", "StoresList", new { id = "Sears" }, new { @class = "cpn-clink" }) </span>
+                </div>
+                <div class="cpnquot">
+                    <span class="cpnqttxt">50% SUCCESS</span>
+                    <span class="cpnqttxt2">2 Votes</span>
+                    <a href="#" class="like"></a><a href="#" class="dislike"></a>
+                    <a href="#" class="facebook"></a><a href="#" class="twiter"></a><a href="#" class="googleplus"></a>
+                </div>
+            </div>*@
+            <div class="cpnmain">
+                <a href="#" class="cpnimg">
+                    <img src="../images/HomeCoupon/sears.jpg" alt="img" /></a>
+                <div class="cpndes">
+                    <span class="cpntitle">$25 Off Your Home Appliance Order</span>
+                    <span class="cpntxt">Enjoy $25 Off Home Appliance Purchase Over $399 when you select FREE Store Pickup. Some exclusions apply. See site for details.</span>
+                    <input name="button" type="submit" class="cpnbtn" id="button" value="REVEAL CODE" />
+                    <span class="cpntxt">See all @Html.ActionLink("Sears Coupons", "StoresList", new { id = "Sears" }, new { @class = "cpn-clink" }) </span>
+                </div>
+                <div class="cpnquot">
+                    <span class="cpnqttxt">50% SUCCESS</span>
+                    <span class="cpnqttxt2">2 Votes</span>
+                    <a href="#" class="like"></a><a href="#" class="dislike"></a>
+                    <a href="#" class="facebook"></a><a href="#" class="twiter"></a><a href="#" class="googleplus"></a>
+                </div>
+            </div>
+            @* <div class="cpnmain">
+                <a href="#" class="cpnimg">
+                    <img src="../images/HomeCoupon/sears.jpg" alt="img" /></a>
+                <div class="cpndes">
+                    <span class="cpntitle">Free Shipping On $59+</span>
+                    <span class="cpntxt">Free shipping on orders over $59. Some exclusions apply. See site for details.</span>
+                    <input name="button" type="submit" class="cpnbtn" id="button" value="REVEAL CODE" />
+                    <span class="cpntxt">See all @Html.ActionLink("YOOX Coupons", "StoresList", new { id = "Sears" }, new { @class = "cpn-clink" }) </span>
+                </div>
+                <div class="cpnquot">
+                    <span class="cpnqttxt">50% SUCCESS</span>
+                    <span class="cpnqttxt2">2 Votes</span>
+                    <a href="#" class="like"></a><a href="#" class="dislike"></a>
+                    <a href="#" class="facebook"></a><a href="#" class="twiter"></a><a href="#" class="googleplus"></a>
+                </div>
+            </div>
+            <div class="cpnmain">
+                <a href="#" class="cpnimg">
+                    <img src="../images/HomeCoupon/Shoes.jpg" alt="img" /></a>
+                <div class="cpndes">
+                    <span class="cpntitle">Up To 50% Off Select Styles</span>
+                    <span class="cpntxt">Frye Sale! Up to 50% off select styles</span>
+                    <input name="button" type="submit" class="cpnbtn" id="button" value="REVEAL CODE" />
+                    <span class="cpntxt">See all @Html.ActionLink("YOOX Coupons", "StoresList", new { id = "Shoes" }, new { @class = "cpn-clink" }) </span>
+                </div>
+                <div class="cpnquot">
+                    <span class="cpnqttxt">50% SUCCESS</span>
+                    <span class="cpnqttxt2">2 Votes</span>
+                    <a href="#" class="like"></a><a href="#" class="dislike"></a>
+                    <a href="#" class="facebook"></a><a href="#" class="twiter"></a><a href="#" class="googleplus"></a>
+                </div>
+            </div>*@
+            <div class="cpnmain">
+                <a href="#" class="cpnimg">
+                    <img src="../images/HomeCoupon/Shoes.jpg" alt="img" /></a>
+                <div class="cpndes">
+                    <span class="cpntitle">10% Off Footwear + Free Shipping</span>
+                    <span class="cpntxt">Save 10% off your footwear purchase plus get free shipping! Enter promo code at checkout. Some exclusions apply. See site for details.</span>
+                    <input name="button" type="submit" class="cpnbtn" id="button" value="REVEAL CODE" />
+                    <span class="cpntxt">See all @Html.ActionLink("Shoes Coupons", "StoresList", new { id = "Shoes" }, new { @class = "cpn-clink" }) </span>
+                </div>
+                <div class="cpnquot">
+                    <span class="cpnqttxt">50% SUCCESS</span>
+                    <span class="cpnqttxt2">2 Votes</span>
+                    <a href="#" class="like"></a><a href="#" class="dislike"></a>
+                    <a href="#" class="facebook"></a><a href="#" class="twiter"></a><a href="#" class="googleplus"></a>
+                </div>
+            </div>
+            @* <div class="cpnmain">
+                <a href="#" class="cpnimg">
+                    <img src="../images/HomeCoupon/Shoes.jpg" alt="img" /></a>
+                <div class="cpndes">
+                    <span class="cpntitle">Up To 50% Off</span>
+                    <span class="cpntxt">Shop & save up to 50% off on select Converse styles. Place your order today.</span>
+                    <input name="button" type="submit" class="cpnbtn" id="button" value="REVEAL CODE" />
+                    <span class="cpntxt">See all @Html.ActionLink("YOOX Coupons", "StoresList", new { id = "Shoes" }, new { @class = "cpn-clink" }) </span>
+                </div>
+                <div class="cpnquot">
+                    <span class="cpnqttxt">50% SUCCESS</span>
+                    <span class="cpnqttxt2">2 Votes</span>
+                    <a href="#" class="like"></a><a href="#" class="dislike"></a>
+                    <a href="#" class="facebook"></a><a href="#" class="twiter"></a><a href="#" class="googleplus"></a>
+                </div>
+            </div>
+            <div class="cpnmain">
+                <a href="#" class="cpnimg">
+                    <img src="../images/HomeCoupon/macys.jpg" alt="img" /></a>
+                <div class="cpndes">
+                    <span class="cpntitle">20% Off VIP Sale</span>
+                    <span class="cpntxt">Take an Extra 20% Off Order during the VIP Sale.</span>
+                    <input name="button" type="submit" class="cpnbtn" id="button" value="REVEAL CODE" />
+                    <span class="cpntxt">See all @Html.ActionLink("YOOX Coupons", "StoresList", new { id = "Macys" }, new { @class = "cpn-clink" }) </span>
+                </div>
+                <div class="cpnquot">
+                    <span class="cpnqttxt">50% SUCCESS</span>
+                    <span class="cpnqttxt2">2 Votes</span>
+                    <a href="#" class="like"></a><a href="#" class="dislike"></a>
+                    <a href="#" class="facebook"></a><a href="#" class="twiter"></a><a href="#" class="googleplus"></a>
+                </div>
+            </div>*@
+            <div class="cpnmain">
+                <a href="#" class="cpnimg">
+                    <img src="../images/HomeCoupon/macys.jpg" alt="img" /></a>
+                <div class="cpndes">
+                    <span class="cpntitle">SUp To 20% Off 5 Day Super Sale</span>
+                    <span class="cpntxt">Save up to 20% during the 5 Day Super Sale.</span>
+                    <input name="button" type="submit" class="cpnbtn" id="button" value="REVEAL CODE" />
+                    <span class="cpntxt">See all @Html.ActionLink("Macys Coupons", "StoresList", new { id = "Macys" }, new { @class = "cpn-clink" }) </span>
+                </div>
+                <div class="cpnquot">
+                    <span class="cpnqttxt">50% SUCCESS</span>
+                    <span class="cpnqttxt2">2 Votes</span>
+                    <a href="#" class="like"></a><a href="#" class="dislike"></a>
+                    <a href="#" class="facebook"></a><a href="#" class="twiter"></a><a href="#" class="googleplus"></a>
+                </div>
+            </div>
+            @* <div class="cpnmain">
+                <a href="#" class="cpnimg">
+                    <img src="../images/HomeCoupon/macys.jpg" alt="img" /></a>
+                <div class="cpndes">
+                    <span class="cpntitle">Up To 80% Off Clearance</span>
+                    <span class="cpntxt">Shop clearance and save 40-80% on apparel, shoes, home & more.</span>
+                    <input name="button" type="submit" class="cpnbtn" id="button" value="REVEAL CODE" />
+                    <span class="cpntxt">See all @Html.ActionLink("YOOX Coupons", "StoresList", new { id = "Macys" }, new { @class = "cpn-clink" }) </span>
+                </div>
+                <div class="cpnquot">
+                    <span class="cpnqttxt">50% SUCCESS</span>
+                    <span class="cpnqttxt2">2 Votes</span>
+                    <a href="#" class="like"></a><a href="#" class="dislike"></a>
+                    <a href="#" class="facebook"></a><a href="#" class="twiter"></a><a href="#" class="googleplus"></a>
+                </div>
+            </div>
+            <div class="cpnmain">
+                <a href="#" class="cpnimg">
+                    <img src="../images/HomeCoupon/best buy.jpg" alt="img" /></a>
+                <div class="cpndes">
+                    <span class="cpntitle">Up To 50% Off Select Styles</span>
+                    <span class="cpntxt">Check Out This Weeks Specials & Save Up To 25% On Select Laptops + Get Free Shipping. Discount Available For A Limited Time.</span>
+                    <input name="button" type="submit" class="cpnbtn" id="button" value="REVEAL CODE" />
+                    <span class="cpntxt">See all @Html.ActionLink("YOOX Coupons", "StoresList", new { id = "BestBuy" }, new { @class = "cpn-clink" }) </span>
+                </div>
+                <div class="cpnquot">
+                    <span class="cpnqttxt">50% SUCCESS</span>
+                    <span class="cpnqttxt2">2 Votes</span>
+                    <a href="#" class="like"></a><a href="#" class="dislike"></a>
+                    <a href="#" class="facebook"></a><a href="#" class="twiter"></a><a href="#" class="googleplus"></a>
+                </div>
+            </div>*@
+            <div class="cpnmain">
+                <a href="#" class="cpnimg">
+                    <img src="../images/HomeCoupon/best buy.jpg" alt="img" /></a>
+                <div class="cpndes">
+                    <span class="cpntitle">10% Off Footwear + Free Shipping</span>
+                    <span class="cpntxt">Save up to 20% on Major Appliances. Excludes Clearance & More and Marketplace items, and brands of appliances sold in Pacific Sales stores within Best Buy stores.</span>
+                    <input name="button" type="submit" class="cpnbtn" id="button" value="REVEAL CODE" />
+                    <span class="cpntxt">See all @Html.ActionLink("Best Buy Coupons", "StoresList", new { id = "BestBuy" }, new { @class = "cpn-clink" }) </span>
+                </div>
+                <div class="cpnquot">
+                    <span class="cpnqttxt">50% SUCCESS</span>
+                    <span class="cpnqttxt2">2 Votes</span>
+                    <a href="#" class="like"></a><a href="#" class="dislike"></a>
+                    <a href="#" class="facebook"></a><a href="#" class="twiter"></a><a href="#" class="googleplus"></a>
+                </div>
+            </div>
+            @*  <div class="cpnmain">
+                <a href="#" class="cpnimg">
+                    <img src="../images/HomeCoupon/best buy.jpg" alt="img" /></a>
+                <div class="cpndes">
+                    <span class="cpntitle">Up To 50% Off</span>
+                    <span class="cpntxt">Save Up To 50% Off This Weeks Video Game Offers + Get Free Shipping On Orders Over $35 Or More.</span>
+                    <input name="button" type="submit" class="cpnbtn" id="button" value="REVEAL CODE" />
+                    <span class="cpntxt">See all @Html.ActionLink("YOOX Coupons", "StoresList", new { id = "BestBuy" }, new { @class = "cpn-clink" }) </span>
+                </div>
+                <div class="cpnquot">
+                    <span class="cpnqttxt">50% SUCCESS</span>
+                    <span class="cpnqttxt2">2 Votes</span>
+                    <a href="#" class="like"></a><a href="#" class="dislike"></a>
+                    <a href="#" class="facebook"></a><a href="#" class="twiter"></a><a href="#" class="googleplus"></a>
+                </div>
+            </div>
+            <div class="cpnmain">
+                <a href="#" class="cpnimg">
+                    <img src="../images/HomeCoupon/Kohls.jpg" alt="img" /></a>
+                <div class="cpndes">
+                    <span class="cpntitle">20% Off In-Store & Online</span>
+                    <span class="cpntxt">Take 20% Off Your Purchase In-Store & Online.</span>
+                    <input name="button" type="submit" class="cpnbtn" id="button" value="REVEAL CODE" />
+                    <span class="cpntxt">See all @Html.ActionLink("YOOX Coupons", "StoresList", new { id = "Khols" }, new { @class = "cpn-clink" }) </span>
+                </div>
+                <div class="cpnquot">
+                    <span class="cpnqttxt">50% SUCCESS</span>
+                    <span class="cpnqttxt2">2 Votes</span>
+                    <a href="#" class="like"></a><a href="#" class="dislike"></a>
+                    <a href="#" class="facebook"></a><a href="#" class="twiter"></a><a href="#" class="googleplus"></a>
+                </div>
+            </div>*@
+            <div class="cpnmain">
+                <a href="#" class="cpnimg">
+                    <img src="../images/HomeCoupon/Kohls.jpg" alt="img" /></a>
+                <div class="cpndes">
+                    <span class="cpntitle">Save On New Fall Looks At Kohl's</span>
+                    <span class="cpntxt">Save with Doorbusters and Bonus Buys In-Store at Kohl's.</span>
+                    <input name="button" type="submit" class="cpnbtn" id="button" value="REVEAL CODE" />
+                    <span class="cpntxt">See all @Html.ActionLink("Kohls Coupons", "StoresList", new { id = "Khols" }, new { @class = "cpn-clink" }) </span>
+                </div>
+                <div class="cpnquot">
+                    <span class="cpnqttxt">50% SUCCESS</span>
+                    <span class="cpnqttxt2">2 Votes</span>
+                    <a href="#" class="like"></a><a href="#" class="dislike"></a>
+                    <a href="#" class="facebook"></a><a href="#" class="twiter"></a><a href="#" class="googleplus"></a>
+                </div>
+            </div>
+            @*<div class="cpnmain">
+                <a href="#" class="cpnimg">
+                    <img src="../images/HomeCoupon/Kohls.jpg" alt="img" /></a>
+                <div class="cpndes">
+                    <span class="cpntitle">Free Shipping On $50+</span>
+                    <span class="cpntxt">Free Shipping on orders of $50 or more.</span>
+                    <input name="button" type="submit" class="cpnbtn" id="button" value="REVEAL CODE" />
+                    <span class="cpntxt">See all @Html.ActionLink("YOOX Coupons", "StoresList", new { id = "Khols" }, new { @class = "cpn-clink" }) </span>
+                </div>
+                <div class="cpnquot">
+                    <span class="cpnqttxt">50% SUCCESS</span>
+                    <span class="cpnqttxt2">2 Votes</span>
+                    <a href="#" class="like"></a><a href="#" class="dislike"></a>
+                    <a href="#" class="facebook"></a><a href="#" class="twiter"></a><a href="#" class="googleplus"></a>
+                </div>
+            </div>*@
+        </div>
+        <div class="right">
+            <div class="newslettermain">
+                <h2>Never Miss a Coupon..!</h2>
+                <span class="simpletxt">Sign up and get our fabulous deals for your favorite brands and products.</span>
+                <input type="text" class="txtfield1" />
+                <input type="button" class="btn1" value="SUBSCRIBE" />
+            </div>
+            <div class="topstores">
+                <h2>Top Categories</h2>
+                <ul class="storesmain">
+                    <li><a href="#" class="storeslinks">Apparel & Clothing</a></li>
+                    <li><a href="#" class="storeslinks">Arts & Crafts</a></li>
+                    <li><a href="#" class="storeslinks">Auctions</a></li>
+                    <li><a href="#" class="storeslinks">Automotive</a></li>
+                    <li><a href="#" class="storeslinks">Babies & Kids</a></li>
+                    <li><a href="#" class="storeslinks">Books & Media</a></li>
+                </ul>
+                <input type="button" class="btn3" value="VIEW MORE" />
+            </div>
+            <div class="featuredcoupons">
+                <h2>Featured Coupons</h2>
+                <ul class="featuredcoupons2">
+                    <li><a href="#" class="fclinks">Shop $179 or More to Save $10 by Applying Promo Code at Zerbee Apply 'BASEBALL10' voucher Code</a></li>
+                    <li><a href="#" class="fclinks">Shop $179 or More to Save $10 by Applying Promo Code at Zerbee Apply 'BASEBALL10' voucher Code</a></li>
+                    <li><a href="#" class="fclinks">Shop $179 or More to Save $10 by Applying Promo Code at Zerbee Apply 'BASEBALL10' voucher Code</a></li>
+                    <li><a href="#" class="fclinks">Shop $179 or More to Save $10 by Applying Promo Code at Zerbee Apply 'BASEBALL10' voucher Code</a></li>
+                </ul>
+                <input type="button" class="btn4" value="VIEW MORE" />
+            </div>
+            <div class="textbox">
+                <h2>Text Box</h2>
+                <span class="simpletxt">Sign up and get our fabulous deals for your favorite brands and products.</span>
+                <input type="button" class="btn2" value="READ MORE" />
+            </div>
+        </div>
+        <p style="clear: both;"></p>
+    </div>
+</div>
+

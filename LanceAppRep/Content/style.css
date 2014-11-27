@@ -1,0 +1,1393 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+body
+{
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    background: url(../images/body-bg.png);
+}
+
+li
+{
+    list-style: none;
+}
+
+.logoandsearch
+{
+    display: block;
+    width: 100%;
+    float: left;
+    background: #FFF;
+}
+
+.container1
+{
+    display: block;
+    margin: 15px auto;
+    max-width: 1000px;
+}
+
+.logo
+{
+    display: block;
+    float: left;
+    width: 296px;
+    height: 89px;
+    background: url(../images/logo.png) no-repeat left top;
+    background-size: 229px 89px;
+}
+
+.search
+{
+    display: block;
+    float: right;
+    width: 550px;
+    height: 69px;
+    background: url(../images/srch-bg.png) repeat-x bottom left #eb7aa0;
+    padding: 10px;
+}
+
+.searchfield
+{
+    border: none;
+    width: 440px;
+    height: 40px;
+    padding: 0 10px;
+    background: #FFF;
+    display: block;
+    float: left;
+    font-family: myriad pro, arial;
+    font-size: 20px;
+    font-weight: normal;
+    color: #000;
+    text-decoration: none;
+}
+
+.searchbtn
+{
+    border: none;
+    width: 90px;
+    height: 40px;
+    background: #000;
+    display: block;
+    float: left;
+    font-family: myriad pro, arial;
+    font-size: 20px;
+    font-weight: normal;
+    color: #fff;
+    text-decoration: none;
+}
+
+.searchtxt
+{
+    border: none;
+    width: 550px;
+    height: 40px display:block;
+    float: left;
+    font-family: myriad pro, arial;
+    font-size: 15px;
+    font-weight: normal;
+    color: #fff;
+    text-decoration: none;
+    margin: 15px 0 0 0;
+}
+
+
+.menumain
+{
+    display: block;
+    width: 100%;
+    height: 50px;
+    float: left;
+    background: #5182c5;
+    border-bottom: #346ab3 solid 10px;
+}
+
+.container2
+{
+    display: block;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.menu
+{
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    padding: 0px;
+    height: 60px;
+    float: left;
+}
+
+    .menu ul
+    {
+        margin: 0;
+        padding: 0;
+    }
+
+    .menu li
+    {
+        list-style: none;
+        float: left;
+        text-align: center;
+        height: 60px;
+    }
+
+        .menu li a
+        {
+            color: #fff;
+            display: block;
+            font-family: myriad pro, arial;
+            font-size: 20px;
+            font-weight: normal;
+            line-height: 45px;
+            margin-top: 0px;
+            padding: 5px 25px 7px 25px;
+            text-align: center;
+            text-decoration: none;
+        }
+
+            .menu li a:hover
+            {
+                background: #346ab3;
+            }
+
+.act
+{
+    background: #346ab3;
+}
+
+.slider
+{
+    display: block;
+    width: 100%;
+    float: left;
+    margin: 10px 0;
+}
+
+.container3
+{
+    display: block;
+    margin: 0 auto;
+    max-width: 1000px;
+    background: #fff;
+}
+
+.mainbody
+{
+    display: block;
+    width: 100%;
+    float: left;
+    margin: 0 0 10px 0;
+}
+
+.container4
+{
+    display: block;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.right
+{
+    display: block;
+    float: right;
+    width: 25%;
+}
+
+.newslettermain
+{
+    display: block;
+    float: left;
+    width: 92%;
+    background: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-bottom: #dcdcdc 2px solid;
+}
+
+.topstores
+{
+    display: block;
+    float: left;
+    width: 92%;
+    background: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-bottom: #dcdcdc 2px solid;
+}
+
+.featuredcoupons
+{
+    display: block;
+    float: left;
+    width: 92%;
+    background: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-bottom: #dcdcdc 2px solid;
+}
+
+.textbox
+{
+    display: block;
+    float: left;
+    width: 92%;
+    background: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-bottom: #dcdcdc 2px solid;
+}
+
+h2
+{
+    color: #000;
+    font-family: myriad pro, arial;
+    font-size: 20px;
+    font-weight: normal;
+    text-decoration: none;
+    margin: 0;
+}
+
+.simpletxt
+{
+    display: block;
+    float: left;
+    width: 100%;
+    color: #494949;
+    font-family: arial;
+    font-size: 14px;
+    font-weight: normal;
+    text-decoration: none;
+    margin: 5px 0;
+    line-height: 16px;
+}
+
+.simpletxt2
+{
+    display: block;
+    float: left;
+    width: 100%;
+    color: #fff;
+    font-family: myriad pro, arial;
+    font-size: 14px;
+    font-weight: normal;
+    text-decoration: none;
+    margin: 5px 0;
+    line-height: 16px;
+}
+
+.txtfield1
+{
+    border: none;
+    width: 92%;
+    height: 30px;
+    padding: 0 10px;
+    background: #fff;
+    display: block;
+    float: left;
+    font-family: myriad pro, arial;
+    font-size: 15px;
+    font-weight: normal;
+    color: #000;
+    text-decoration: none;
+    border: #f3f3f3 solid 1px;
+}
+
+.btn1
+{
+    border: none;
+    width: 90px;
+    height: 30px;
+    background: #f9a80b;
+    display: block;
+    float: left;
+    font-family: myriad pro, arial;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.btn2
+{
+    border: none;
+    width: 90px;
+    height: 30px;
+    background: #f9a80b;
+    display: block;
+    float: left;
+    font-family: myriad pro, arial;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.btn3
+{
+    border: none;
+    width: 90px;
+    height: 30px;
+    background: #f9a80b;
+    display: block;
+    float: left;
+    font-family: myriad pro, arial;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.btn4
+{
+    border: none;
+    width: 90px;
+    height: 30px;
+    background: #f9a80b;
+    display: block;
+    float: left;
+    font-family: myriad pro, arial;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.storesmain
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.storeslinks
+{
+    font-family: arial;
+    font-size: 14px;
+    font-weight: normal;
+    color: #494949;
+    text-decoration: none;
+    display: block;
+    float: left;
+    background: url(../images/erw.png) no-repeat 3px 6px;
+    padding-left: 15px;
+    margin: 3px 0;
+    width: 94%;
+    line-height: 18px;
+}
+
+    .storeslinks:hover
+    {
+        background: url(../images/erw.png) no-repeat 3px 6px #ffe8bb;
+    }
+
+.featuredcoupons2
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.fclinks
+{
+    font-family: arial;
+    font-size: 14px;
+    font-weight: normal;
+    color: #494949;
+    text-decoration: none;
+    display: block;
+    float: left;
+    margin: 0;
+    width: 94%;
+    line-height: 18px;
+    border-bottom: #000 1px dashed;
+    padding: 5px;
+    line-height: 22px;
+}
+
+    .fclinks:hover
+    {
+        background: #ffe8bb;
+    }
+
+.left
+{
+    display: block;
+    float: left;
+    width: 74%;
+}
+
+.title
+{
+    display: block;
+    float: left;
+    width: 100%;
+    height: 40px;
+    background: #346ab3;
+}
+
+h1
+{
+    color: #fff;
+    font-family: myriad pro, arial;
+    font-size: 20px;
+    font-weight: normal;
+    text-decoration: none;
+    margin: 0;
+    padding: 8px 10px;
+}
+
+.cpnmain
+{
+    display: block;
+    float: left;
+    width: 97.5%;
+    border-bottom: #dcdcdc 2px solid;
+    margin-top: 10px;
+    padding: 10px;
+    background: #FFFFFF;
+}
+
+.cpnimg
+{
+    display: block;
+    float: left;
+    border: 1px solid #666666;
+}
+
+    .cpnimg:hover
+    {
+        border: 1px solid #000000;
+    }
+
+.cpndes
+{
+    display: block;
+    float: left;
+    width: 58%;
+    height: 40px;
+    margin-left: 10px;
+}
+
+.cpntitle
+{
+    display: block;
+    float: left;
+    width: 100%;
+    color: #3b3b3b;
+    font-family: arial;
+    font-size: 25px;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.cpntxt
+{
+    display: block;
+    float: left;
+    width: 100%;
+    color: #494949;
+    font-family: arial;
+    font-size: 15px;
+    font-weight: normal;
+    text-decoration: none;
+    margin: 5px 0;
+    line-height: 20px;
+}
+
+.cpnbtn
+{
+    border: none;
+    width: 149px;
+    height: 28px;
+    background: url(../images/cpn-btn.png) no-repeat left top;
+    display: block;
+    float: left;
+    font-family: myriad pro, arial;
+    font-size: 20px;
+    font-weight: normal;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+}
+
+.cpnquot
+{
+    display: block;
+    float: right;
+    width: 20%;
+    height: 40px;
+    text-align: right;
+}
+
+.cpnqttxt
+{
+    display: block;
+    float: left;
+    width: 100%;
+    color: #f9a80b;
+    font-family: myriad pro, arial;
+    font-size: 20px;
+    font-weight: normal;
+    text-decoration: none;
+    margin: 5px 0 0 0;
+}
+
+.cpnqttxt2
+{
+    display: block;
+    float: left;
+    width: 100%;
+    color: #494949;
+    font-family: myriad pro, arial;
+    font-size: 15px;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.like
+{
+    display: block;
+    float: left;
+    width: 26px;
+    height: 29px;
+    background: url(../images/like.png) no-repeat left top;
+    border: #CCCCCC 1px solid;
+    margin-left: 85px;
+}
+
+    .like:hover
+    {
+        border: #000 1px solid;
+    }
+
+.dislike
+{
+    display: block;
+    float: left;
+    width: 26px;
+    height: 29px;
+    background: url(../images/dislike.png) no-repeat left top;
+    border: #CCCCCC 1px solid;
+}
+
+    .dislike:hover
+    {
+        border: #000 1px solid;
+    }
+
+.facebook
+{
+    display: block;
+    float: left;
+    width: 33px;
+    height: 28px;
+    background: url(../images/fbok.png) no-repeat left top;
+    margin: 5px 0 0 45px;
+}
+
+    .facebook:hover
+    {
+        background: url(../images/fbok-h.png) no-repeat left top;
+    }
+
+.twiter
+{
+    display: block;
+    float: left;
+    width: 33px;
+    height: 28px;
+    background: url(../images/twiter.png) no-repeat left top;
+    margin: 5px 0 0 0;
+}
+
+    .twiter:hover
+    {
+        background: url(../images/twiter-h.png) no-repeat left top;
+    }
+
+.googleplus
+{
+    display: block;
+    float: left;
+    width: 33px;
+    height: 28px;
+    background: url(../images/gplus.png) no-repeat left top;
+    margin: 5px 0 0 0;
+}
+
+    .googleplus:hover
+    {
+        background: url(../images/gplus-h.png) no-repeat left top;
+    }
+
+
+.footer
+{
+    display: block;
+    width: 100%;
+    float: left;
+    background: url(../images/footer-bg.png) repeat-x bottom left #5182c5;
+    height: 240px;
+}
+
+.container6
+{
+    display: block;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.ftr-main
+{
+    display: block;
+    float: left;
+    width: 100%;
+}
+
+.ftr1lft
+{
+    display: block;
+    float: left;
+    width: 70%;
+    margin-top: 20px;
+    margin-bottom: 18px;
+}
+
+.ftr-links1main
+{
+    display: block;
+    float: left;
+    width: 32%;
+    margin: 0;
+    padding: 0;
+}
+
+.ftr-linkstitle
+{
+    font-family: myriad pro, arial;
+    font-size: 16px;
+    font-weight: normal;
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    float: left;
+}
+
+.ftr-links1
+{
+    font-family: myriad pro, arial;
+    font-size: 14px;
+    font-weight: normal;
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    float: left;
+    background: url(../images/erwf.png) no-repeat 3px 9px;
+    padding-left: 15px;
+    width: 100%;
+    line-height: 22px;
+}
+
+    .ftr-links1:hover
+    {
+        text-decoration: underline;
+    }
+
+.ftr1rit
+{
+    display: block;
+    float: right;
+    width: 28%;
+    margin-top: 20px;
+    margin-bottom: 22px;
+    background: #8ab4ee;
+}
+
+h3
+{
+    color: #fff;
+    font-family: myriad pro, arial;
+    font-size: 20px;
+    font-weight: normal;
+    text-decoration: none;
+    margin: 5px 10px;
+}
+
+.txtfieldftr
+{
+    border: none;
+    width: 85%;
+    height: 25px;
+    padding: 0 10px;
+    background: #FFF;
+    display: block;
+    float: left;
+    font-family: myriad pro, arial;
+    font-size: 15px;
+    font-weight: normal;
+    color: #000;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.btnftr
+{
+    border: none;
+    width: 90px;
+    height: 24px;
+    background: #000;
+    display: block;
+    float: left;
+    font-family: myriad pro, arial;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.ftr2lft
+{
+    display: block;
+    float: left;
+    width: 70%;
+    margin-top: 6px;
+}
+
+.ftr-link2
+{
+    display: block;
+    float: left;
+    font-family: myriad pro, arial;
+    font-size: 15px;
+    font-weight: normal;
+    text-decoration: none;
+    color: #FFFFFF;
+    background: url(../images/ftr-er.png) no-repeat left 5px;
+    padding: 0 0 0 15px;
+    margin-right: 10px;
+}
+
+    .ftr-link2:hover
+    {
+        text-decoration: underline;
+    }
+
+.ftr-txt2
+{
+    display: block;
+    float: left;
+    font-family: myriad pro, arial;
+    font-size: 13px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.ftr2rit
+{
+    display: block;
+    float: right;
+    width: 28%;
+}
+
+.ftr-txt3
+{
+    float: left;
+    font-family: myriad pro, arial;
+    font-size: 25px;
+    font-weight: normal;
+    text-decoration: none;
+    color: #FFFFFF;
+    display: block;
+    padding-top: 5px;
+}
+
+.fbftr
+{
+    display: block;
+    float: left;
+    width: 46px;
+    height: 46px;
+    background: url(../images/fb-ftr.png) no-repeat left top;
+    margin: 5px 10px 0 0;
+}
+
+.twftr
+{
+    display: block;
+    float: left;
+    width: 46px;
+    height: 46px;
+    background: url(../images/tw-ftr.png) no-repeat left top;
+    margin: 5px 10px 0 0;
+}
+
+.liftr
+{
+    display: block;
+    float: left;
+    width: 46px;
+    height: 46px;
+    background: url(../images/li-ftr.png) no-repeat left top;
+    margin: 5px 10px 0 0;
+}
+
+.brands
+{
+    display: block;
+    width: 100%;
+    float: left;
+    background: #FFFFFF;
+}
+
+.container5
+{
+    display: block;
+    margin: 0 auto;
+    max-width: 1000px;
+    background: url(../images/brands-bg.png) no-repeat center top;
+    padding-top: 37px;
+}
+
+.brands-main
+{
+    display: block;
+    float: left;
+    width: 100%;
+    margin: 25px 0;
+}
+
+
+
+
+.slider-left
+{
+    display: block;
+    float: left;
+    width: 300px;
+    background: #fff;
+    padding: 10px;
+    height: 200px;
+    border-bottom: #dcdcdc 2px solid;
+}
+
+.slider-right
+{
+    display: block;
+    float: left;
+    width: 658px;
+    background: #fff;
+    padding: 10px;
+    height: 200px;
+    border-left: #dcdcdc 2px solid;
+    border-bottom: #dcdcdc 2px solid;
+}
+
+.str-main
+{
+    display: block;
+    float: left;
+    background: #FFFFFF url(../images/str-bg.png) repeat-x left bottom;
+    border: #f9a80b 1px solid;
+    width: 140px;
+    height: 75px;
+    margin: 10px 0 0 10px;
+}
+
+.str-logo
+{
+    display: block;
+    float: left;
+    width: 138px;
+    height: 50px;
+    text-align: center;
+    margin: 5px 0;
+}
+
+.str-text
+{
+    display: block;
+    float: left;
+    width: 138px;
+    height: 15px;
+    text-align: center;
+    font-family: Arial;
+    font-size: 11px;
+    color: #FFFFFF;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+
+
+p
+{
+    padding: 0;
+    margin: 0;
+}
+
+.text1
+{
+    font-family: verdana;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: normal;
+    text-decoration: none;
+    color: #212121;
+}
+
+
+.cpn-clink
+{
+    font-family: arial;
+    font-size: 14px;
+    font-weight: normal;
+    color: #e6628f;
+    text-decoration: none;
+}
+
+    .cpn-clink:hover
+    {
+        text-decoration: underline;
+    }
+
+
+
+.store-details
+{
+    display: block;
+    float: left;
+    width: 97.5%;
+    border-bottom: #dcdcdc 2px solid;
+    padding: 10px;
+    background: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+.banleft
+{
+    display: block;
+    float: right;
+    width: 71%;
+    border-bottom: #000000 1px dashed;
+    padding: 0 10px;
+    margin-top: 10px;
+}
+
+.ban-title
+{
+    font-family: myriad pro, arial;
+    font-size: 20px;
+    font-weight: normal;
+    color: #0652b9;
+    text-decoration: none;
+    line-height: 20px;
+}
+
+.ban-txt
+{
+    font-family: myriad pro, arial;
+    font-size: 15px;
+    font-weight: normal;
+    color: #000;
+    text-decoration: none;
+    line-height: 24px;
+}
+
+.ban-lnk
+{
+    font-family: myriad pro, arial;
+    font-size: 15px;
+    font-weight: normal;
+    color: #e9004f;
+    text-decoration: none;
+    line-height: 22px;
+}
+
+    .ban-lnk:hover
+    {
+        font-family: myriad pro, arial;
+        font-size: 15px;
+        font-weight: normal;
+        color: #e9004f;
+        text-decoration: underline;
+        line-height: 22px;
+    }
+
+.banright
+{
+    display: block;
+    float: left;
+    width: 22.5%;
+    border: #e9004f 1px solid;
+    margin: 10px;
+    text-align: center;
+}
+
+.bandisc
+{
+    display: block;
+    width: 163px;
+    float: left;
+    text-align: center;
+    font-family: myriad pro, arial;
+    font-size: 13px;
+    font-weight: normal;
+    color: #ffffff;
+    text-decoration: none;
+    line-height: 30px;
+    background: #e9004f;
+}
+
+.banwidget
+{
+    display: block;
+    width: 60%;
+    float: left;
+    padding: 8px 20px;
+}
+
+.store-right
+{
+    display: block;
+    float: left;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.viewmore
+{
+    font-family: myriad pro, arial;
+    font-size: 14px;
+    font-weight: normal;
+    color: #000;
+    text-decoration: none;
+    display: block;
+    float: left;
+    background: url(../images/erw.png) no-repeat 3px 9px;
+    padding-left: 15px;
+    width: 100%;
+    line-height: 22px;
+}
+
+    .viewmore:hover
+    {
+        text-decoration: underline;
+    }
+
+.review-title
+{
+    display: block;
+    float: left;
+    background: #000;
+    width: 97.3%;
+    margin: 0;
+    font-family: myriad pro, arial;
+    font-size: 20px;
+    font-weight: normal;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.newsletter2
+{
+    display: block;
+    float: left;
+    width: 97.5%;
+    margin-top: 10px;
+    margin-bottom: 0;
+    background: #ffd179;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-bottom: #ffaa05 2px solid;
+}
+
+.txtfield2
+{
+    border: none;
+    width: 80%;
+    height: 24px;
+    padding: 0 10px;
+    background: #fff;
+    display: block;
+    float: left;
+    font-family: myriad pro, arial;
+    font-size: 15px;
+    font-weight: normal;
+    color: #000;
+    text-decoration: none;
+    border: #f3f3f3 solid 1px;
+    margin-top: 10px;
+}
+
+.bdytxt1
+{
+    font-family: myriad pro, arial;
+    font-size: 15px;
+    font-weight: normal;
+    color: #494949;
+    text-decoration: none;
+}
+
+
+
+.accordion_nav
+{
+    font-size: 22px;
+    margin: 10px;
+    font-family: myriad pro, arial;
+}
+
+    .accordion_nav li
+    {
+        display: inline;
+        margin: 0 2px;
+    }
+
+    .accordion_nav a
+    {
+        color: #f9a80b;
+        text-decoration: none;
+    }
+
+.accordion
+{
+    position: relative;
+    margin: 0 10px;
+}
+
+    .accordion h3
+    {
+        font-size: 18px;
+        line-height: 25px;
+        color: #fff;
+        background: #e6628f;
+        clear: both;
+        margin: 10px 0 0 0;
+        border: solid 1px #dadada;
+        border-bottom: none;
+        padding-left: 5px;
+    }
+
+    * + html .accordion h3
+    {
+        height: 25px;
+    }
+        /** For ie7 **/
+        .accordion h3 a
+        {
+            font-size: 12px;
+            line-height: 25px;
+            color: #fff;
+            text-decoration: none;
+            position: absolute;
+            right: 10px;
+        }
+
+            .accordion h3 a:hover
+            {
+                text-decoration: underline;
+            }
+
+    .accordion ul
+    {
+        font-size: 12px;
+        font-weight: normal;
+        line-height: 15px;
+        background: #fff;
+        padding: 10px;
+        margin: 0;
+        border: solid 1px #dadada;
+    }
+
+    * + html .accordion ul
+    {
+        min-height: 30px;
+    }
+    /** For ie7 **/
+    .accordion li
+    {
+        display: inline-block;
+        width: 210px;
+        overflow: hidden;
+        padding: 8px 0;
+        margin: 0 5px;
+        border-bottom: 1px dashed #B4B4B4;
+        font-family: myriad pro, arial;
+        line-height: 13px;
+    }
+
+    * + html .accordion li
+    {
+        float: left;
+    }
+        /** For ie7 **/
+        .accordion li a
+        {
+            color: #000000;
+            text-decoration: none;
+            display: block;
+            background: url(http://media.couponrefund.com/css-sprite.png) no-repeat scroll -291px -12px;
+            height: 11px;
+            overflow: hidden;
+            padding: 0 0 0 15px;
+        }
+
+            .accordion li a:hover
+            {
+                background-position: -291px 0;
+            }
+
+    .accordion p
+    {
+        font-size: 12px;
+        font-weight: bold;
+        line-height: 25px;
+        color: #1196D7;
+        background: #F0F0F0;
+        clear: both;
+        padding: 0 10px;
+        margin: 0;
+        border: solid 1px #dadada;
+        border-top: none;
+        direction: rtl;
+    }
+
+    .accordion .pagination
+    {
+        background: #F0F0F0;
+        clear: both;
+        padding: 5px 10px;
+        margin: 0;
+        border: solid 1px #dadada;
+        border-top: none;
+    }
+
+    .accordion p
+    {
+        font-size: 12px;
+        font-weight: bold;
+        line-height: 25px;
+        color: #1196D7;
+        background: #F0F0F0;
+        clear: both;
+        padding: 0 10px;
+        margin: 0;
+        border: solid 1px #dadada;
+        border-top: none;
+        direction: rtl;
+    }
+
+.lnk2, .view
+{
+    font: 12px/18px "myrial pro", arial;
+    color: #346ab3;
+    text-decoration: none;
+}
+
+a.lnk2:hover, a.view:hover
+{
+    text-decoration: underline;
+}
+
+.Question
+{
+    width: 22px;
+    height: 20px;
+    display: inline;
+}
+
+.page_form
+{
+    margin: 10px 0;
+}
+
+    .page_form p, .page_form div
+    {
+        clear: both;
+        height: 22px;
+        margin: 5px 0;
+    }
+
+    .page_form div
+    {
+        font-size: 12px;
+        color: #3d3d3d;
+    }
+
+    .page_form p.label
+    {
+        font: normal 11px/14px "myriad pro", Arial;
+        height: auto;
+        padding: 0 0 0 22%;
+    }
+
+    .page_form label, .page_form span.label, .page_form input, .page_form select, .page_form textarea
+    {
+        float: left;
+    }
+
+    .page_form label, .page_form span.label
+    {
+        line-height: 22px;
+        text-align: right;
+        display: block;
+        width: 21%;
+        margin: 0 1% 0 0;
+        font-size: 12px;
+        font-family: myriad pro, Arial;
+    }
+
+    .page_form input[type="text"], .page_form select
+    {
+        font: normal 11px "myriad pro", Arial;
+        color: #262626;
+        height: 20px;
+        width: 228px;
+        border: solid 1px #e3e9ef;
+    }
+
+    .page_form select
+    {
+        height: 22px;
+        width: 230px;
+    }
+
+    .page_form textarea
+    {
+        font: normal 11px "myriad pro", Arial;
+        color: #262626;
+        resize: none;
+        width: 375px;
+        border: solid 1px #e3e9ef;
+    }
+
+    .page_form input[type="button"], .page_form input[type="submit"], .page_form input[type="reset"]
+    {
+        font: bold 11px "myriad pro", Arial;
+        color: #ffffff;
+        background: #0599df;
+        padding: 3px 7px;
+        border: none;
+    }
+
+    .page_form p.label input
+    {
+        float: none !important;
+    }

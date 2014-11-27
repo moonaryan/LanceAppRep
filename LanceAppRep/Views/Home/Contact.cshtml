@@ -1,0 +1,114 @@
+﻿@{
+    ViewBag.Title = "Contact";
+    Layout = "~/Views/Shared/_LayoutSlider.cshtml"; 
+}
+
+<!-- slider starts -->
+<div class="slider"></div>
+<!-- slider close -->
+
+<!-- body starts -->
+<div class="mainbody">
+    <div class="container4">
+        <div class="left">
+        	<div class="title">
+        	  <h1>CONTACT US</h1>
+        	</div>
+            <div class="cpnmain">
+            	<span class="bdytxt1">Kindly don't hesitate to email us with proposals, remarks, criticism, specialized issues, advancements for new stores you might want to see, offering an online promo code to us, testimonials or your individual knowledge of saving cash online utilizing Couponknot.com</span><br />
+<br />
+
+                <span class="bdytxt1">Fields marked with an asterisk (*) are required.</span>
+                <form id="contact-form" class="page_form" method="post">
+                 	<p class="label"><span id="note"></span></p>
+					<p>
+						<label for="name">* Name:</label> 
+						<input name="contact_name" type="text" value="" id="contact_name">&nbsp;&nbsp;
+                        <span id="ContactMsgName"></span>
+					</p>
+				  	<p>
+						<label for="email">* Email:</label>
+					    <input name="contact_email" type="text" value="" id="contact_email">&nbsp;&nbsp;
+                        <span id="ContactMsgEmail"></span>
+					</p>
+					<p>
+						<label for="phone">* Phone Number:</label>
+						<input name="contact_phone" type="text" value="" id="contact_phone">&nbsp;&nbsp;
+                        <span id="ContactMsgPhone"></span>
+					</p>
+					<p>
+						<label for="type">* Subject:</label>
+						<select id="contact_subject" name="contact_subject">
+							<option value="">--Select a Subject--</option>
+							<option value="Comment or Feedback">Comment or Feedback</option>
+							<option value="Make a Suggesion">Make a Suggesion</option>
+							<option value="Problem with coupon">Problem with coupon</option>
+							<option value="Technical Issue">Technical Issue</option>
+							<option value="Others">Others</option>
+						</select>&nbsp;&nbsp;
+                        <span id="ContactMsgSubject"></span>
+					</p>
+				  	<p style="height:auto;">
+						<label for="disc">Description:</label>
+					    <textarea name="contact_message" rows="4" cols="50" id="contact_message"></textarea><br class="clr">&nbsp;&nbsp;
+				  	<span id="ContactMsgDesc"></span>
+                    </p>
+                    <div>
+                        <p class="label">
+                            <!--<img src="/securimage/securimage_show.php?sid=" id="image" align="absmiddle" />
+                       		<a href="#" onclick="document.getElementById('image').src = '/securimage/securimage_show.php?sid=' + Math.random(); return false"><img alt="Refresh" title="Refresh" border="0" src="/securimage/images/refresh.gif"  /></a>-->
+                            <img src="http://www.couponrefund.com/securimage/securimage_show_rev.html?sid='+Math.random()" id="revimage" align="absmiddle"><a href="#" onclick="document.getElementById('revimage').src = 'http://www.couponrefund.com/securimage/securimage_show_rev.html?sid=' + Math.random(); return false"><img alt="Refresh" title="Refresh" border="0" src="http://www.couponrefund.com/securimage/images/refresh.gif"></a>
+                        </p>
+                        <p>
+                        	<label for="disc">Security Code:</label>
+							<input type="text" id="security" name="security" style="width:145px">&nbsp;&nbsp;
+                            <span id="ContactMsgCode"></span>
+                           
+                        </p>
+                    </div>
+					<p class="label">
+						<input value="Submit" class="btn1" type="submit" onclick="ContactUs(); return false;">
+					</p>
+				</form>
+                
+            </div>
+      </div>
+        <div class="right">
+        	<div class="newslettermain">
+            	<h2>Never Miss a Coupon..!</h2>
+                <span class="simpletxt">Sign up and get our fabulous deals for your favorite brands and products.</span>
+                <input type="text" class="txtfield1" />
+                <input type="button" class="btn1" value="SUBSCRIBE" />
+            </div>
+        	<div class="topstores">
+            	<h2>Top Categories</h2>
+                <ul class="storesmain">
+                	<li><a href="#" class="storeslinks">Apparel & Clothing</a></li>
+                	<li><a href="#" class="storeslinks">Arts & Crafts</a></li>
+                	<li><a href="#" class="storeslinks">Auctions</a></li>
+                	<li><a href="#" class="storeslinks">Automotive</a></li>
+                	<li><a href="#" class="storeslinks">Babies & Kids</a></li>
+                	<li><a href="#" class="storeslinks">Books & Media</a></li>
+                </ul>
+                <input type="button" class="btn3" value="VIEW MORE" />
+            </div>
+        	<div class="featuredcoupons">
+            	<h2>Featured Coupons</h2>
+                <ul class="featuredcoupons2">
+                	<li><a href="#" class="fclinks">Shop $179 or More to Save $10 by Applying Promo Code at Zerbee Apply 'BASEBALL10' voucher Code</a></li>
+                	<li><a href="#" class="fclinks">Shop $179 or More to Save $10 by Applying Promo Code at Zerbee Apply 'BASEBALL10' voucher Code</a></li>
+                	<li><a href="#" class="fclinks">Shop $179 or More to Save $10 by Applying Promo Code at Zerbee Apply 'BASEBALL10' voucher Code</a></li>
+                	<li><a href="#" class="fclinks">Shop $179 or More to Save $10 by Applying Promo Code at Zerbee Apply 'BASEBALL10' voucher Code</a></li>
+                </ul>
+                <input type="button" class="btn4" value="VIEW MORE" />
+            </div>
+        	<div class="textbox">
+            	<h2>Text Box</h2>
+                <span class="simpletxt">Sign up and get our fabulous deals for your favorite brands and products.</span>
+                <input type="button" class="btn2" value="READ MORE" />
+            </div>                        
+        </div>
+        <p style="clear:both;"></p>
+    </div>
+</div>
+<!-- body close -->
